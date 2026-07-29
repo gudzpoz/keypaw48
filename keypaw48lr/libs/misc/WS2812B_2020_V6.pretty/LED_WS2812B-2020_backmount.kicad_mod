@@ -1,0 +1,218 @@
+(footprint "LED_WS2812B-2020_backmount"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
+	(tags "LED RGB NeoPixel Nano PLCC-4 2020")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "1d446a86-0b4d-4bb5-b46b-0143bb1ca18f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "5ce8faf2-1dd7-484d-a847-fb0465482174")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90f20539-2fcd-4822-b169-6379d3f9b6f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa8f5133-6e99-4939-a1df-80333e5dbd27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -1.5 1.3) (xy -1.5 1) (xy -1.2 1.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a2f4a1c1-38c8-45b0-a0ce-f17acffd7f35")
+	)
+	(fp_rect
+		(start -0.83 -1)
+		(end 0.83 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "3c99b367-5e2b-4cf1-8fb0-b9e52ca72fde")
+	)
+	(fp_line
+		(start -1.52 -1.25)
+		(end -1.52 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84606ed5-68d4-4e85-ad17-b342beef4808")
+	)
+	(fp_line
+		(start -1.52 1.25)
+		(end 1.52 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "302b66ce-01ce-46e7-b53d-1113710ca4a0")
+	)
+	(fp_line
+		(start 1.52 -1.25)
+		(end -1.52 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da03df4e-d8b5-4b8e-a9ee-aa3bb6fba622")
+	)
+	(fp_line
+		(start 1.52 1.25)
+		(end 1.52 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab4b7df9-8795-4c08-9be5-b689dc7b7c31")
+	)
+	(fp_line
+		(start -1.1 -1)
+		(end 1.1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07627ed0-8ff8-45b0-9721-956e262d81b6")
+	)
+	(fp_line
+		(start -1.1 0.45)
+		(end -1.1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a426be0d-0229-4880-b63e-8b6445b6bdcf")
+	)
+	(fp_line
+		(start -0.55 1)
+		(end -1.1 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b17893a2-a245-4cc4-ac24-a1e9c6f5b0d1")
+	)
+	(fp_line
+		(start 1.1 1)
+		(end -0.55 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "747466a6-837c-40c6-9885-161fba9521bc")
+	)
+	(fp_line
+		(start 1.1 1)
+		(end 1.1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d485773-1303-4df5-9935-6fbd702eaba6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "03472d6b-08e9-488f-a345-8a39d9db7523")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.0825 0.55)
+		(size 0.365 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "878b6a4e-86ad-45bb-a1e7-98931e886121")
+	)
+	(pad "2" smd rect
+		(at -1.082499 -0.55)
+		(size 0.364998 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cc22220f-413e-4a5e-8606-2110e8b8e24f")
+	)
+	(pad "3" smd rect
+		(at 1.0825 -0.55)
+		(size 0.365 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "106d4b79-5e34-4039-a535-e6a263d4b2f5")
+	)
+	(pad "4" smd rect
+		(at 1.0825 0.55)
+		(size 0.365 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1da35721-0dfd-4122-ad74-d78a3e0ef359")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

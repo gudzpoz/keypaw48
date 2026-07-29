@@ -1,0 +1,9 @@
+[submodule "keypaw48lr/libs/marbastlib"]
+	path = keypaw48lr/libs/marbastlib
+	url = https://github.com/ebastler/marbastlib.git
+[submodule "keypaw48lr/libs/paw3395"]
+	path = keypaw48lr/libs/paw3395
+	url = https://github.com/vnguyen31/PixArt-PAW3395-Breakout-Board.git
+[submodule "keypaw48lr/libs/paw3395-pcb"]
+	path = keypaw48lr/libs/paw3395-pcb
+	url = https://github.com/badjeff/paw3395-pcb.git

@@ -7,11 +7,14 @@
 *.bck
 *.kicad_pcb-bak
 *~
+~*.lck
 _autosave-*
+_restore_backup_*
 *.tmp
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
+.history
 
 # Netlist files (exported from Eeschema)
 *.net
