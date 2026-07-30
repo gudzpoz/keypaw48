@@ -1,0 +1,251 @@
+(footprint "RotaryEncoder_Alps_EC10E-Switch"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Alps rotary encoder, EC11E... with switch, vertical shaft, https://www.lcsc.com/datasheet/lcsc_datasheet_2410010003_ALPSALPINE-EC11E09444A8_C1322538.pdf")
+	(tags "rotary encoder")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(layer "F.SilkS")
+		(uuid "d72fbe64-d7dc-421e-aa06-b9b4563d68e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RotaryEncoder_Alps_EC10E"
+		(at 0 10.4 0)
+		(layer "F.Fab")
+		(uuid "3199a8ac-e757-4fc1-a644-28459b55c271")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a02d05dd-98a3-4360-86e8-0ef5f47346fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f596bb3f-558c-42fd-8681-e365d5cd6495")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.9 -2.45)
+		(end 4.9 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5ce52e1-bb06-423e-b5ab-cd69aef72c9f")
+	)
+	(fp_line
+		(start -4.9 -2.05)
+		(end -4.9 -2.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f782fa9-a0c4-465e-831b-4f9719d31bd4")
+	)
+	(fp_line
+		(start -4.9 0.85)
+		(end -4.9 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bcabea2e-353a-4177-9eaf-46a3ce524ac4")
+	)
+	(fp_line
+		(start -4.9 1.4)
+		(end -3.95 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36375ca5-3fe3-4371-96bc-a76a38ca7276")
+	)
+	(fp_line
+		(start 4.9 -2.05)
+		(end 4.9 -2.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "acc0b878-a0d1-4d9f-8871-ef38cb2d488a")
+	)
+	(fp_line
+		(start 4.9 0.85)
+		(end 4.9 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a02438c-b954-451c-8d58-0399fc49e4e4")
+	)
+	(fp_line
+		(start 4.9 1.4)
+		(end 3.95 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4b8f7e0-30cd-440d-be45-43ddc0ea7559")
+	)
+	(fp_rect
+		(start -5.4 -1.65)
+		(end -3.6 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "de6647d2-49ea-4001-a07a-b759fdbe50a9")
+	)
+	(fp_rect
+		(start 3.6 -1.65)
+		(end 5.4 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "c21f6423-5878-4c2f-a444-6aacea3ef056")
+	)
+	(fp_rect
+		(start -4.9 -3.05)
+		(end 4.9 3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "db139903-20fa-4f58-a823-77797f0d7a6d")
+	)
+	(fp_line
+		(start -4.5 -3)
+		(end 4.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d588a87-9fe4-4528-94e5-81dd2cc52a69")
+	)
+	(fp_line
+		(start -4.5 2)
+		(end -4.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3580b3ad-0b05-4414-b0c0-1ae6446193f0")
+	)
+	(fp_line
+		(start -4.5 2)
+		(end -3.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c30896b-fb23-4947-8537-250f1619e622")
+	)
+	(fp_line
+		(start 4.5 -3)
+		(end 4.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c70bda6a-6ecc-4fcd-a073-ef7e1b67a312")
+	)
+	(fp_line
+		(start 4.5 3)
+		(end -3.5 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed542a33-aa38-4b4c-bb26-e1155fefd723")
+	)
+	(pad "A" thru_hole roundrect
+		(at -2.5 1.4)
+		(size 2 2)
+		(drill 1)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "9fdcbe69-1fa8-45d0-b2bc-b2d9810e1250")
+	)
+	(pad "B" thru_hole circle
+		(at 0 1.4)
+		(size 2 2)
+		(drill 1)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "898705c2-8492-4338-a374-0877602cec5d")
+	)
+	(pad "C" thru_hole circle
+		(at 2.5 1.4)
+		(size 2 2)
+		(drill 1)
+		(property pad_prop_heatsink)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "a52a64b6-122b-47bd-91b7-b7659e103fee")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
