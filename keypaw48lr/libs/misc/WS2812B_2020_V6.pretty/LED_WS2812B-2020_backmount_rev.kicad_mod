@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(layer "F.SilkS")
-		(uuid "8e8b4b91-bfe8-4b3d-a90e-0c6c62e756ad")
+		(uuid "98d6bde1-9b4f-41cd-ab17-0cac616bcfcc")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(at 0 2.2 0)
 		(layer "F.Fab")
-		(uuid "fa33bbd8-1fab-428e-9e54-546a4d0f91ba")
+		(uuid "330af63d-d24d-4f8c-8a24-6ab20a58a16d")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "514a2d4c-3d1e-410f-8ce6-4ed071ba66ce")
+		(uuid "304320ce-f310-44ae-aa60-95778d1803bf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4523984e-3325-47ac-9263-153a4780683f")
+		(uuid "d14b0aa0-2ae7-4117-8a0b-e82e7f25de9f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -67,7 +67,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "dcb84e78-d9f5-464f-8216-ad0b277057e3")
+		(uuid "0f505aad-58d0-4361-895e-b377fdbc121b")
 	)
 	(fp_poly
 		(pts
@@ -79,7 +79,7 @@
 		)
 		(fill yes)
 		(layer "B.SilkS")
-		(uuid "9f46d2c5-0226-4ea4-bafc-b264c8df87ab")
+		(uuid "e47ae8c1-d9b7-4454-857c-7dd7ce806c03")
 	)
 	(fp_rect
 		(start -0.8 -1)
@@ -90,7 +90,7 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "1b6ea027-e1d7-4fbe-97dc-ac0759adbdde")
+		(uuid "8cef99d8-1da1-4b0a-8876-e6040ccfb640")
 	)
 	(fp_line
 		(start -1.52 -1.25)
@@ -100,7 +100,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1886efb9-7c1c-40ae-ae2f-842fc517142e")
+		(uuid "f7e061eb-85dd-4e1b-ba5c-2215f8e52647")
 	)
 	(fp_line
 		(start -1.52 1.25)
@@ -110,7 +110,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9932d84d-829d-476b-be67-4824a4461956")
+		(uuid "20c0ba59-f223-4e92-88c1-1df4ab819af2")
 	)
 	(fp_line
 		(start 1.52 -1.25)
@@ -120,7 +120,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "eb7ef63c-bb6e-40fa-8bdc-6234ec7cfa85")
+		(uuid "9bd613e6-9c66-4536-bb1b-77303f52a6b3")
 	)
 	(fp_line
 		(start 1.52 1.25)
@@ -130,7 +130,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9511a26e-00ab-4fb1-9cd6-1988df49fb06")
+		(uuid "c3a44441-5648-4c4c-b5ea-18ae2f856a28")
 	)
 	(fp_line
 		(start -1.1 -0.45)
@@ -140,7 +140,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6ec9221e-b815-4cc3-bdec-062b039ec717")
+		(uuid "fccac85f-0711-4109-9faf-c3a7de5587a0")
 	)
 	(fp_line
 		(start -1.1 1)
@@ -150,7 +150,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9c7edb8c-af11-4cfd-975b-81807e1f74c6")
+		(uuid "7fcc0272-b5aa-4553-8ebd-a4e28b06d520")
 	)
 	(fp_line
 		(start -0.55 -1)
@@ -160,7 +160,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "bbd31102-cd88-4324-b12b-1aa30afbb267")
+		(uuid "69d0e389-3aa6-4fab-9b87-7d1eaf1bd4ea")
 	)
 	(fp_line
 		(start 1.1 -1)
@@ -170,7 +170,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b97bcbcf-cbbd-40b8-88b8-91ba4bf962f1")
+		(uuid "7f4276d6-f901-44a2-849d-eda00ab1257a")
 	)
 	(fp_line
 		(start 1.1 -1)
@@ -180,13 +180,13 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e96365ec-68eb-41c0-b40d-ce73d7921b83")
+		(uuid "30b2a12d-220f-4184-b603-d6bdd669c6f0")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.036241 -1.39825 0)
+		(at 0.036241 2.75 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "10d88357-e673-404f-9aff-e7794f06d213")
+		(uuid "6a9d39e7-659e-4af7-a4c3-46f349d5198c")
 		(effects
 			(font
 				(size 1 1)
@@ -198,7 +198,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
-		(uuid "410e7b96-4c00-4597-a7ed-fbd063b5bb83")
+		(uuid "ced1cc14-3846-4f91-9a73-e543d33523de")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -213,19 +213,19 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "86d1f2bc-7a8f-4839-a1e4-e57d23951c91")
+		(uuid "40ce1012-7f1e-42bb-8fd1-14400ec2237a")
 	)
 	(pad "1" smd rect
 		(at -1.15 -0.55)
 		(size 0.6 0.7)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "2fb3d300-756f-4c13-91bb-ebad2df83733")
+		(uuid "feb4ed39-1c94-4fb2-830c-b6a280602451")
 	)
 	(pad "1" smd rect
 		(at -1.15 0.55)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "09a11dd8-dab6-4df8-8599-0d07b7fcc8fe")
+		(uuid "82b80573-f5bf-45ac-867c-90aa8c9c2c26")
 	)
 	(pad "2" thru_hole circle
 		(at -1.9 -0.55)
@@ -234,31 +234,31 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "f541dbe7-3ecb-4795-9e68-ee4b8b6e4abb")
+		(uuid "c412f4a2-75e3-4483-a28b-56d01ac01d97")
 	)
 	(pad "2" smd rect
 		(at -1.15 -0.55)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ed8520a0-4530-438a-9cf9-bf9f7884f577")
+		(uuid "24dc3f47-a3ca-4e5d-aed3-e0782efbf26b")
 	)
 	(pad "2" smd rect
 		(at -1.15 0.55)
 		(size 0.6 0.7)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "bedc5bc9-a19b-42a7-a9aa-796b776c41b0")
+		(uuid "af6e3daa-cd8b-4588-899d-37da3b4f7655")
 	)
 	(pad "3" smd rect
 		(at 1.15 -0.55)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "02f95643-4899-47cd-b439-35e018019e21")
+		(uuid "a3b0c8cb-f012-44b2-a228-bbb4738c8cb7")
 	)
 	(pad "3" smd rect
 		(at 1.15 0.55)
 		(size 0.6 0.7)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "dc594aa8-2fe7-4909-8f47-31daee391fdb")
+		(uuid "39d50d27-6b76-496b-9dde-277a14916b83")
 	)
 	(pad "3" thru_hole circle
 		(at 1.9 -0.55)
@@ -267,19 +267,19 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "af3bf5b5-e4ca-4f23-bf64-d7d901b38d2c")
+		(uuid "d82548ac-fdc9-431e-93bc-a3dc861e6710")
 	)
 	(pad "4" smd rect
 		(at 1.15 -0.55)
 		(size 0.6 0.7)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "8dd2fdc7-6690-4f80-84d5-5a2afd1b3143")
+		(uuid "59fbab33-6b5a-4e95-9742-45fa381fb0e5")
 	)
 	(pad "4" smd rect
 		(at 1.15 0.55)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0bfecdb1-f4c5-4717-9a0d-f86e14ee0040")
+		(uuid "d652e5dd-7cb3-438f-a4b3-dd06bb3e4753")
 	)
 	(pad "4" thru_hole circle
 		(at 1.9 0.55)
@@ -288,7 +288,7 @@
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "a36ba871-b1eb-4402-a794-c2bfbb5ec135")
+		(uuid "8f46e897-5d12-4b98-b7a9-d1859d93e4bc")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"
