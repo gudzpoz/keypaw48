@@ -686,7 +686,7 @@
         "uuid": "052094ba-efae-41ac-bcac-3ea5f9c16259"
       }
     ],
-    "used_designators": "J1-7,SW1-5,MX1-24,JP1-8,LED1-24,R1-6,#PWR1-53,#PWR55,#PWR62-64,#PWR67-68,#PWR70-72,C1-15,D1-25,U1-4",
+    "used_designators": "J1-9,SW1-5,MX1-24,JP1-8,LED1-24,R1-6,#PWR1-55,#PWR62-64,#PWR67-68,#PWR70-72,C1-15,D1-25,U1-4",
     "variants": []
   },
   "sheets": [

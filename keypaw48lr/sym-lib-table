@@ -4,4 +4,5 @@
 	(lib (name "marbastlib-mx") (type "KiCad") (uri "${KIPRJMOD}/libs/marbastlib/symbols/marbastlib-mx.kicad_sym") (options "") (descr ""))
 	(lib (name "WS2812B_2020_V6") (type "KiCad") (uri "${KIPRJMOD}/libs/misc/WS2812B_2020_V6.kicad_sym") (options "") (descr ""))
 	(lib (name "Motion_sensor") (type "KiCad") (uri "${KIPRJMOD}/libs/paw3395/Motion_sensor.kicad_sym") (options "") (descr ""))
+	(lib (name "JD9613_OLED_FPC") (type "KiCad") (uri "${KIPRJMOD}/libs/misc/JD9613_OLED_FPC.kicad_sym") (options "") (descr ""))
 )
