@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1 0)
 		(layer "F.SilkS")
-		(uuid "d72fbe64-d7dc-421e-aa06-b9b4563d68e4")
+		(uuid "dfe57c88-d307-4938-8abd-c4245805d3dd")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "RotaryEncoder_Alps_EC10E"
 		(at 0 10.4 0)
 		(layer "F.Fab")
-		(uuid "3199a8ac-e757-4fc1-a644-28459b55c271")
+		(uuid "2daa9abf-9336-4e29-b5e1-bbae91dbcf58")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a02d05dd-98a3-4360-86e8-0ef5f47346fe")
+		(uuid "c882ed75-67c6-4ef8-8295-d01e1e2ee0f2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f596bb3f-558c-42fd-8681-e365d5cd6495")
+		(uuid "b0e6ea6d-2589-4748-ae4e-041eb8edef0c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b5ce52e1-bb06-423e-b5ab-cd69aef72c9f")
+		(uuid "54521733-c941-493d-a6cd-cda6a6a6a005")
 	)
 	(fp_line
 		(start -4.9 -2.05)
@@ -73,7 +73,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "4f782fa9-a0c4-465e-831b-4f9719d31bd4")
+		(uuid "6fa3fb99-b688-4bdb-8107-bac62e3185b0")
 	)
 	(fp_line
 		(start -4.9 0.85)
@@ -83,7 +83,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "bcabea2e-353a-4177-9eaf-46a3ce524ac4")
+		(uuid "8c524caf-cf6f-4cb1-909b-a140eb8b5881")
 	)
 	(fp_line
 		(start -4.9 1.4)
@@ -93,7 +93,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "36375ca5-3fe3-4371-96bc-a76a38ca7276")
+		(uuid "90c4e85c-f0d2-4918-967a-0dc6274a426a")
 	)
 	(fp_line
 		(start 4.9 -2.05)
@@ -103,7 +103,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "acc0b878-a0d1-4d9f-8871-ef38cb2d488a")
+		(uuid "bf709759-d744-40fe-93b1-908b3ff47e4f")
 	)
 	(fp_line
 		(start 4.9 0.85)
@@ -113,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3a02438c-b954-451c-8d58-0399fc49e4e4")
+		(uuid "be9f35db-2545-44d8-9e87-7aebaa49b527")
 	)
 	(fp_line
 		(start 4.9 1.4)
@@ -123,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b4b8f7e0-30cd-440d-be45-43ddc0ea7559")
+		(uuid "45c1dfb8-15a3-4267-b645-d91c5ec30d3a")
 	)
 	(fp_rect
 		(start -5.4 -1.65)
@@ -134,7 +134,7 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "de6647d2-49ea-4001-a07a-b759fdbe50a9")
+		(uuid "5b714f51-89d6-4d52-a6a8-aef666e641a2")
 	)
 	(fp_rect
 		(start 3.6 -1.65)
@@ -145,7 +145,7 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "c21f6423-5878-4c2f-a444-6aacea3ef056")
+		(uuid "0e018e77-b239-4914-ade0-baf8425bd1a8")
 	)
 	(fp_rect
 		(start -4.9 -3.05)
@@ -156,7 +156,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "db139903-20fa-4f58-a823-77797f0d7a6d")
+		(uuid "9dffcd9d-ea8a-49e3-a3a6-0c987dfc3242")
 	)
 	(fp_line
 		(start -4.5 -3)
@@ -166,7 +166,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9d588a87-9fe4-4528-94e5-81dd2cc52a69")
+		(uuid "172ab35c-5309-4476-81f4-3a112985bffc")
 	)
 	(fp_line
 		(start -4.5 2)
@@ -176,7 +176,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3580b3ad-0b05-4414-b0c0-1ae6446193f0")
+		(uuid "12e25375-0a79-4b84-b637-2837ee02522d")
 	)
 	(fp_line
 		(start -4.5 2)
@@ -186,7 +186,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6c30896b-fb23-4947-8537-250f1619e622")
+		(uuid "b8eb4132-ff6d-47ed-acd5-035d7a291943")
 	)
 	(fp_line
 		(start 4.5 -3)
@@ -196,7 +196,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c70bda6a-6ecc-4fcd-a073-ef7e1b67a312")
+		(uuid "3c72c15f-52d9-4d56-8740-806e80462b75")
 	)
 	(fp_line
 		(start 4.5 3)
@@ -206,35 +206,35 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ed542a33-aa38-4b4c-bb26-e1155fefd723")
+		(uuid "80f60846-9049-4b91-9e83-577933f7aa32")
 	)
 	(pad "A" thru_hole roundrect
 		(at -2.5 1.4)
 		(size 2 2)
 		(drill 1)
 		(property pad_prop_heatsink)
-		(layers "*.Cu")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.125)
-		(uuid "9fdcbe69-1fa8-45d0-b2bc-b2d9810e1250")
+		(uuid "1e526674-a085-4b19-89b1-41707c87dfe3")
 	)
 	(pad "B" thru_hole circle
 		(at 0 1.4)
 		(size 2 2)
 		(drill 1)
 		(property pad_prop_heatsink)
-		(layers "*.Cu")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "898705c2-8492-4338-a374-0877602cec5d")
+		(uuid "d2730ebf-ff9b-4dff-b059-f02e1858ea49")
 	)
 	(pad "C" thru_hole circle
 		(at 2.5 1.4)
 		(size 2 2)
 		(drill 1)
 		(property pad_prop_heatsink)
-		(layers "*.Cu")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "a52a64b6-122b-47bd-91b7-b7659e103fee")
+		(uuid "e2dc4a16-2a8f-49c6-89ed-ef721d4aa337")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles.step"

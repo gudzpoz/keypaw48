@@ -19184,7 +19184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-promicroish:nice_nano_AH_USBup"
+		(property "Footprint" "MX_SW_HS_REV:nice_nano_AH_USBup_REV"
 			(at 45.72 69.85 0)
 			(hide yes)
 			(show_name no)

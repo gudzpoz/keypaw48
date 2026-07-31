@@ -160,7 +160,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -175,12 +175,6 @@
 		(path "/f21d5deb-729c-452d-8115-aa16426013e5")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -1701,7 +1695,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1714,7 +1708,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1734,12 +1728,6 @@
 		(path "/277422fa-0ccd-432c-8730-96986b0ac4a3")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -2107,7 +2095,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2120,42 +2108,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "610b65d9-4c5f-459d-8e47-fb240e9471ea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "862d6c3d-6328-4165-a6d0-27ad001359f2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f4546e7c-19b5-470e-a7cd-35978e3bf0c9")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -2503,7 +2459,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2516,42 +2472,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c359f2e5-b5a0-470e-95cd-92ccc13f56e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "448dd280-5ef2-4dc7-8720-f05b2835b024")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/584f6862-bcac-47c7-a513-cd906bd0d285")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -2897,7 +2821,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2912,12 +2836,6 @@
 		(path "/bc30256f-00b9-4597-aee8-16f9c8dc6b5d")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -4451,7 +4369,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4464,42 +4382,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ad4e386a-cc58-40f0-8f35-5561069e7efb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a358387-8809-41bf-9c47-18e81d0094ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9360a4a0-caa3-4223-ab32-c6f89dc7958f")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -4813,7 +4699,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D22"
-			(at 0 -1.85 90)
+			(at -3.6 0 90)
 			(layer "F.SilkS")
 			(uuid "404e63ed-fbc2-42e1-9633-4e2761e40e75")
 			(effects
@@ -4847,7 +4733,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4860,42 +4746,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7a74be7f-ac3f-4c44-8d7c-c304c812fcbc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "255a3464-d6c9-46e6-8f03-eff1a0f9e9c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/ed81d306-a721-4b2b-9a18-2d1ba04032c5")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -5138,7 +4992,7 @@
 			(uuid "1ab6444b-cf1c-44c5-a29c-e20e6a18c55d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 270)
+			(at -3.6 0 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "d103806e-f484-4192-8002-efd64ff54af8")
@@ -5151,7 +5005,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.85 90)
+			(at -3.6 0 90)
 			(layer "F.Fab")
 			(uuid "f065aa5f-015a-4a8c-902e-0899c9424d0c")
 			(effects
@@ -5230,7 +5084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5243,7 +5097,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5263,12 +5117,6 @@
 		(path "/ba5aae8e-76d5-46e3-b1c5-4499f8145b5d")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -5623,7 +5471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5636,7 +5484,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5656,12 +5504,6 @@
 		(path "/169dcabf-7ed9-4008-9fa8-d49d3a2bbf78")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -5995,7 +5837,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.83 0)
+			(at -3.7 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "6817fb91-57b9-4f2a-90ca-d093b82bfc42")
 			(effects
@@ -6027,7 +5869,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6054,12 +5896,6 @@
 		(path "/bcce2338-cc6d-4625-9b9b-3b238ff983d5")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6146,13 +5982,13 @@
 			)
 		)
 	)
-	(footprint "PCM_marbastlib-xp-promicroish:nice_nano_AH_USBup"
+	(footprint "MX_SW_HS_REV:nice_nano_AH_USBup_REV"
 		(layer "F.Cu")
 		(uuid "249f9fd8-fb3f-48bf-88eb-67b2ec52a5d9")
 		(at 57.05 75.825)
 		(descr "Footprint for nice!nano (nRF52850 pro-micro compatible controller), USB pointing away from PCB")
 		(property "Reference" "U1"
-			(at -9.14 16.24 0)
+			(at -1.65 13.075 0)
 			(layer "F.SilkS")
 			(uuid "b4bffc80-d5a0-4d8b-9040-5d72c142e1a4")
 			(effects
@@ -6175,7 +6011,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://nicekeyboards.com/docs/nice-nano/pinout-schematic"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6186,7 +6022,7 @@
 				)
 			)
 		)
-		(property "Description" "Symbol for an nicekeyboards nice!nano"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6200,19 +6036,11 @@
 		(path "/c7bc5eda-7ed6-4961-8e0c-e025b264545f")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "28" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "25" "26"
-					"27" "29" "13" "14" "15" "16" "17" "18" "19" "20" "21" "22" "23" "24"
-				)
-			)
-		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -3.55 -14.2)
-			(end -3.55 -17.78)
+			(start -8.89 15.24)
+			(end -8.89 -17.78)
 			(stroke
 				(width 0.15)
 				(type default)
@@ -6221,18 +6049,28 @@
 			(uuid "d9e530dc-a4fd-4aa1-ad16-abd7f381291f")
 		)
 		(fp_line
-			(start 3.55 -14.2)
-			(end -3.55 -14.2)
+			(start -6.25 -17.78)
+			(end -8.89 -17.78)
 			(stroke
 				(width 0.15)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6ab9dcd5-178e-44c2-8425-423fb3d7de08")
+			(uuid "8cda469d-2fbe-47fa-b178-4483aea67112")
 		)
 		(fp_line
-			(start 3.55 -14.2)
-			(end 3.55 -17.78)
+			(start -6.25 -12.75)
+			(end -6.25 -17.78)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "eee32791-2407-4412-b4e8-df6dc6a0d10a")
+		)
+		(fp_line
+			(start 6.25 -17.78)
+			(end 8.89 -17.78)
 			(stroke
 				(width 0.15)
 				(type default)
@@ -6240,16 +6078,35 @@
 			(layer "F.SilkS")
 			(uuid "901ec784-ec7b-47bd-9bb9-417f80d2bec4")
 		)
-		(fp_rect
-			(start -8.89 -17.78)
+		(fp_line
+			(start 6.25 -12.75)
+			(end 6.25 -17.78)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b756141d-1779-4c4c-ad60-fd288735fee5")
+		)
+		(fp_line
+			(start 8.89 -17.78)
 			(end 8.89 15.24)
 			(stroke
 				(width 0.15)
-				(type solid)
+				(type default)
 			)
-			(fill no)
 			(layer "F.SilkS")
-			(uuid "7f329d01-38cd-48db-9990-fbb296ddc3c2")
+			(uuid "e2a7aaa3-75f7-4c10-89e4-e07d4bb91f70")
+		)
+		(fp_line
+			(start 8.89 15.24)
+			(end -8.89 15.24)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "4732f27d-d473-4c33-adcb-9bcc6f351ac4")
 		)
 		(fp_rect
 			(start -3.55 -19.3)
@@ -6273,44 +6130,6 @@
 			(layer "Cmts.User")
 			(uuid "a33d1341-179b-4847-8ecd-6273f9a24d90")
 		)
-		(fp_text user "1"
-			(at -5.715 -13.2825 0)
-			(layer "F.SilkS")
-			(uuid "508def77-6fa2-4de6-a002-93e4e1dd265f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify bottom)
-			)
-		)
-		(fp_text user "USB"
-			(at 0 -16.2 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "27b4a36b-bfbc-4b15-8628-c98f493d1d49")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify bottom)
-			)
-		)
-		(fp_text user "topside"
-			(at 0 -14.8 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "8001f45a-2c7b-46e9-80a9-061456f16e38")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify bottom)
-			)
-		)
 		(fp_text user "USB"
 			(at 0 -16.2 0)
 			(layer "Cmts.User")
@@ -6327,7 +6146,7 @@
 			(at -7.62 -13.97)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "LED")
 			(pinfunction "P0.06_1")
@@ -6338,7 +6157,7 @@
 			(at -7.62 -11.43)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "DS_OLED")
 			(pinfunction "P0.08_2")
@@ -6349,7 +6168,7 @@
 			(at -7.62 -8.89)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "GND")
@@ -6361,7 +6180,7 @@
 			(at -7.62 -6.35)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "GND")
@@ -6373,7 +6192,7 @@
 			(at -7.62 -3.81)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "CS_OLED")
 			(pinfunction "P0.17_5")
@@ -6384,7 +6203,7 @@
 			(at -7.62 -1.27)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "MOTION")
 			(pinfunction "P0.20_6")
@@ -6395,7 +6214,7 @@
 			(at -7.62 1.27)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "SCK")
 			(pinfunction "P0.22_7")
@@ -6406,7 +6225,7 @@
 			(at -7.62 3.81)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "SDO")
 			(pinfunction "P0.24_8")
@@ -6417,7 +6236,7 @@
 			(at -7.62 6.35)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "SDI")
 			(pinfunction "P1.00_9")
@@ -6428,7 +6247,7 @@
 			(at -7.62 8.89)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "CS_PAW")
 			(pinfunction "P0.11_10")
@@ -6439,7 +6258,7 @@
 			(at -7.62 11.43)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "ROW2")
 			(pinfunction "P1.04-LF_11")
@@ -6450,7 +6269,7 @@
 			(at -7.62 13.97)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "ROW3")
 			(pinfunction "P1.06-LF_12")
@@ -6463,7 +6282,7 @@
 			(drill 1
 				(offset 0 -1.27)
 			)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+BATT")
 			(pinfunction "BAT+_13")
@@ -6474,7 +6293,7 @@
 			(at 7.62 -11.43)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "GND")
@@ -6486,7 +6305,7 @@
 			(at 7.62 -8.89)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(U1-RST-Pad15)")
 			(pinfunction "RST_15")
@@ -6497,7 +6316,7 @@
 			(at 7.62 -6.35)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+3.3V")
 			(pinfunction "3V3_16")
@@ -6508,7 +6327,7 @@
 			(at 7.62 -3.81)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "ROW0")
 			(pinfunction "P0.31-LF_17")
@@ -6519,7 +6338,7 @@
 			(at 7.62 -1.27)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "ROW1")
 			(pinfunction "P0.29-LF_18")
@@ -6530,7 +6349,7 @@
 			(at 7.62 1.27)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "COL0")
 			(pinfunction "P0.02-LF_19")
@@ -6541,7 +6360,7 @@
 			(at 7.62 3.81)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "COL1")
 			(pinfunction "P1.15-LF_20")
@@ -6552,7 +6371,7 @@
 			(at 7.62 6.35)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "COL2")
 			(pinfunction "P1.13-LF_21")
@@ -6563,7 +6382,7 @@
 			(at 7.62 8.89)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "COL3")
 			(pinfunction "P1.11-LF_22")
@@ -6574,7 +6393,7 @@
 			(at 7.62 11.43)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "COL4")
 			(pinfunction "P0.10-LF_23")
@@ -6585,7 +6404,7 @@
 			(at 7.62 13.97)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "COL5")
 			(pinfunction "P0.09-LF_24")
@@ -6596,7 +6415,7 @@
 			(at -5.08 8.89)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "NRESET")
 			(pinfunction "P1.01-LF_25")
@@ -6607,7 +6426,7 @@
 			(at -2.54 8.89)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "PERI_EN")
 			(pinfunction "P1.02-LF_26")
@@ -6618,7 +6437,7 @@
 			(at 0 8.89)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "BUSY")
 			(pinfunction "P1.07-LF_27")
@@ -6629,7 +6448,7 @@
 			(at -7.62 -16.51)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GND-Pad28)")
@@ -6641,7 +6460,7 @@
 			(at 7.62 -16.51)
 			(size 1.8 1.8)
 			(drill 1)
-			(layers "*.Cu" "B.Mask")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+BATT")
 			(pinfunction "BAT+_29")
@@ -6722,7 +6541,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6735,42 +6554,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70e714a4-378a-4e63-8e1d-791e6a8f72dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "774301e7-eea6-4591-b2ae-bdfb8373845b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/8df7587b-ccd3-4001-a726-d8fd59d17d98")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -7118,7 +6905,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7131,42 +6918,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e85424d2-36c8-4782-8a54-4b57efcdfbaf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23a8c7df-b758-4572-b9c6-2aa03cc03957")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/5163cebc-5681-41b7-8c94-72da0caa3a21")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -7512,7 +7267,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7527,12 +7282,6 @@
 		(path "/2aec40ef-e397-4447-8efe-096ebf6f2138")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -9064,7 +8813,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9079,12 +8828,6 @@
 		(path "/77f68ff6-3d18-4412-86e6-b77208bd1e66")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -10605,7 +10348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10618,7 +10361,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10638,12 +10381,6 @@
 		(path "/227a14e4-fbad-42ca-af06-114767f5e1a8")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -11009,7 +10746,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11024,12 +10761,6 @@
 		(path "/c9de0a84-4e5a-42d3-99c3-f55546602dd1")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -12550,7 +12281,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12563,7 +12294,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12583,12 +12314,6 @@
 		(path "/f16a33cb-70a9-47ee-b566-368edb748dff")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -12943,7 +12668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12956,7 +12681,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12976,12 +12701,6 @@
 		(path "/bf9ed590-a139-4ba1-9d72-82b87e74ca46")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -13347,7 +13066,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13362,12 +13081,6 @@
 		(path "/451916c8-bc56-469c-9cad-3dc50bcf9c8c")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -14899,7 +14612,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14914,12 +14627,6 @@
 		(path "/c08daea1-f181-4105-86d3-3a99276efeb3")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -16440,7 +16147,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16453,7 +16160,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16473,12 +16180,6 @@
 		(path "/9a656592-7701-477c-b8fb-5db277a7e6d8")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -16844,7 +16545,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16859,12 +16560,6 @@
 		(path "/c25135b0-7849-4ddc-8ca5-9bad7b926abf")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -18385,7 +18080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18398,7 +18093,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18418,12 +18113,6 @@
 		(path "/c0cf984c-705d-4856-a495-d59fd4c1569a")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -18778,7 +18467,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18791,7 +18480,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18811,12 +18500,6 @@
 		(path "/1fe2b106-5144-495f-b00c-b741d9ee0c59")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -19182,7 +18865,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19197,12 +18880,6 @@
 		(path "/4ebf23fb-0ff4-4d5e-80e4-94a05ec0fc8f")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -20734,7 +20411,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20749,12 +20426,6 @@
 		(path "/02b48a88-81a7-496b-8561-4f7d729ea714")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -22275,7 +21946,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22288,7 +21959,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22308,12 +21979,6 @@
 		(path "/2338cf29-055c-426b-82bf-176c6bd1b9e3")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -22679,7 +22344,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22694,12 +22359,6 @@
 		(path "/669d4bcb-254f-4a7d-aa7e-94844b4a0713")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -24233,7 +23892,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24246,42 +23905,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "395fb278-f9b8-4c7d-8344-1c6a313a8c33")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a2b56a50-80cf-42f7-acec-282cb3f93005")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/18170f46-fdfe-472f-bd39-6391dddfcfe5")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -24629,7 +24256,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24642,42 +24269,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "11c48443-4745-4247-b085-f6a23ea39173")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "872d286e-5741-419d-a0b5-434bb3299c68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/e06af301-cebd-4b1c-918b-0ed1311b60ab")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -25023,7 +24618,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25050,12 +24645,6 @@
 		(path "/0ac60df3-656a-4ad4-a6c9-ef6a98fe3d8b")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25170,7 +24759,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25183,7 +24772,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25203,12 +24792,6 @@
 		(path "/40a7619c-3f19-4171-bccc-2761aa820c4a")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -25574,7 +25157,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25589,12 +25172,6 @@
 		(path "/a5373a74-5c8e-4a96-8b22-7be4571c0f4a")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -27115,7 +26692,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27128,7 +26705,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27148,12 +26725,6 @@
 		(path "/18bf7a95-059b-4bb8-a640-3622332516a9")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -27487,7 +27058,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.83 0)
+			(at 3.7 -0.04 0)
 			(layer "F.SilkS")
 			(uuid "c3c75d8a-b2fb-450f-9af5-9a0b4b6fd4f4")
 			(effects
@@ -27519,7 +27090,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27546,12 +27117,6 @@
 		(path "/b5542903-6798-4991-abdf-7185d51277be")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27666,7 +27231,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27679,7 +27244,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27699,12 +27264,6 @@
 		(path "/b33364e5-574f-45a2-a4e0-449b996f8d03")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -28072,7 +27631,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28085,42 +27644,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2c6b31cf-0bc9-46f0-8c8c-99fec56010c1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95aa5f3c-4197-4728-b398-5772a531a7ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/35633ce9-78af-4052-9f66-b85edefafda8")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -28468,7 +27995,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28481,42 +28008,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eb8ef19e-1c27-4237-a0bd-9c17bf0019a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3020222-1574-40cf-9383-6cdb1b12d4ea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f2a8d51f-f59d-4dba-bf69-f0aeef2db5f7")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -28851,7 +28346,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28864,7 +28359,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28884,12 +28379,6 @@
 		(path "/e9a5124c-c302-4f5c-b94e-a8c479a2c384")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -29060,7 +28549,7 @@
 			(uuid "cd4d4678-a083-4b82-828d-2f20792229f7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.036241 2.75 180)
+			(at -4.75 0.7125 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "a2189e20-0882-477a-b59b-43fd0c03967f")
@@ -29244,7 +28733,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29257,7 +28746,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29277,12 +28766,6 @@
 		(path "/5c3a3065-0e5b-4d8b-bc4b-8325cd1875b8")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -29616,7 +29099,7 @@
 		(descr "Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf")
 		(tags "switch spdt")
 		(property "Reference" "SW1"
-			(at 0 -4.8 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "9ce1552c-0050-475d-a019-867269e9d8a8")
 			(effects
@@ -29650,7 +29133,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29666,12 +29149,6 @@
 		(path "/cbf61df6-29c4-4123-af04-1fa7ec66b9db")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30161,7 +29638,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30176,12 +29653,6 @@
 		(path "/7d644755-c56e-409c-9d49-6aaf36371741")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -31535,7 +31006,7 @@
 			(uuid "379df3b7-5f29-466b-a137-70c7939b5e02")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -7.7 180)
+			(at -1.8 -7.5875 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "36638141-b8fd-4adf-8f77-8399f10ed5fd")
@@ -31702,7 +31173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31715,7 +31186,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31735,12 +31206,6 @@
 		(path "/03a8e7fc-3b0a-4453-942b-0ed5d2cd38ef")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -32095,7 +31560,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32108,7 +31573,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32128,12 +31593,6 @@
 		(path "/ed586d70-5910-4617-a313-41685b9bc86b")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -32501,7 +31960,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32514,42 +31973,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26227442-b6e6-463c-a6d6-cd1089f2e695")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ed967a23-1ddc-4fe0-bedc-c1049ce5af3a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2f3186c4-d767-4741-888c-7b22a91ca7bb")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -32895,7 +32322,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32922,12 +32349,6 @@
 		(path "/b79eae87-3482-4628-960f-bd7bfb2889b3")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33053,7 +32474,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33068,12 +32489,6 @@
 		(path "/0051656f-1914-485d-93a1-b48c5ee63e7b")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -34607,7 +34022,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34620,42 +34035,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89163c4f-c84d-4880-9e31-bafe31aee194")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29f9aeae-60f3-48d3-8901-74a1e89268ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/2447e227-2fb7-40a8-9291-ef0ea9c19903")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -35003,7 +34386,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35016,42 +34399,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8baa5130-f757-4065-9ed6-a69b69211eea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "43b262fe-99f9-4afb-9c05-ba9e92471876")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7bfde635-1cf5-4e06-94ba-44ec497b5060")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -35386,7 +34737,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35399,7 +34750,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35419,12 +34770,6 @@
 		(path "/afd519fe-99b2-42c7-9f4d-e2bc7d8501ff")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -35754,11 +35099,11 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "93971e47-cd55-448b-900c-9a0ec28c917e")
-		(at 62.02 62.185 -90)
+		(at 61.8 62.185 -90)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 -1.8 90)
+			(at 2.415 0 180)
 			(layer "F.SilkS")
 			(uuid "a5cb9ff9-45f4-4da1-91dd-1651f7d5aa49")
 			(effects
@@ -35792,7 +35137,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35809,14 +35154,8 @@
 		(path "/f4939b01-d610-473a-8fe9-8742f96ebf7d")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(zone_connect 1)
-		(attr exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
@@ -36000,7 +35339,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36013,42 +35352,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9227c6e-9300-4dca-8cac-47aeac3b54e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "780e6b7f-e435-4902-a75e-e273f87efe97")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/d3015ca7-d00c-42d4-bc0a-0c950d616f17")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -36394,7 +35701,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36409,12 +35716,6 @@
 		(path "/2a29ce8a-14d8-4cae-830e-0f8ab68a4343")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -37946,7 +37247,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37961,12 +37262,6 @@
 		(path "/19ff34ad-9bf6-436a-bed1-1f65217fa164")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -39498,7 +38793,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39513,12 +38808,6 @@
 		(path "/c056744f-ba38-46a7-8e2c-8f99ca32077a")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -41052,7 +40341,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41065,42 +40354,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37fd45fd-2ad7-4955-8d49-38ae5e3d1959")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "83eff855-7186-4811-9af2-26bdc79c6c67")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/d3770e5a-eb8a-446d-a56f-c6b1bfc2f71b")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -41448,7 +40705,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41461,42 +40718,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e0f3637-0388-45a1-8bcf-7875dfe482fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "46b9db61-aac8-4340-9038-fa17eeb574e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/170dbd55-6add-41cb-b0d1-e777a844f3e2")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -41844,7 +41069,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41857,42 +41082,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b483ffe2-6a8c-42da-a036-67280d54cfbb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4afc0797-ce2b-4b0b-a4ef-492311cd5bff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/57c2457f-fa23-46e3-b169-63e8442faf81")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -42238,7 +41431,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42253,12 +41446,6 @@
 		(path "/88afebbf-61ea-4c36-88a2-d075b14eb30c")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -43790,7 +42977,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43805,12 +42992,6 @@
 		(path "/d6ec9a37-3bdb-4489-896e-7a0be69f89c4")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -45331,7 +44512,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45344,7 +44525,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45364,12 +44545,6 @@
 		(path "/e56f4543-0407-4563-9e39-76f1e863e27f")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -45724,7 +44899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45737,7 +44912,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45757,12 +44932,6 @@
 		(path "/cc8d20d4-0343-4d68-a679-6547a4946db3")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -46128,7 +45297,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46143,12 +45312,6 @@
 		(path "/024298a4-9924-49ef-b669-9a1c0f494656")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -47682,7 +46845,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47695,42 +46858,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4fb803b8-03e7-4f6c-9d7e-1f066b3bb991")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "451f0b0f-81ef-4695-a1fd-debc8bdd7dc3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/6e3fdf6b-ecd1-4d5e-9d8d-36d4d3a8a827")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -48065,7 +47196,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48078,7 +47209,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48098,12 +47229,6 @@
 		(path "/9b7bbe3c-41e6-4da3-9474-6fbc204aabe3")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -48458,7 +47583,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48471,7 +47596,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48491,12 +47616,6 @@
 		(path "/443e2f98-41fb-48d1-8fa4-8eb8f3b52fae")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -48830,7 +47949,7 @@
 		(descr "TE FPC connector, 10 top-side contacts, 0.5mm pitch, SMT, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734839%7FC%7Fpdf%7FEnglish%7FENG_CD_1734839_C_C_1734839.pdf%7F4-1734839-0")
 		(tags "te fpc 1734839")
 		(property "Reference" "J7"
-			(at 0 -3.11 0)
+			(at -0.14 2.82 0)
 			(layer "F.SilkS")
 			(uuid "d894a086-d357-4024-9da9-3c8b383d5a24")
 			(effects
@@ -48862,7 +47981,7 @@
 				)
 			)
 		)
-		(property "Description" "FPC connector for a OLED screen."
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48889,17 +48008,11 @@
 		(path "/a0cb1ed3-83a2-4ff2-a7fc-6b3d2ad10a76")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "MP" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -5.325 2.04)
-			(end -5.325 2.64)
+			(start -5.325 2.2)
+			(end -5.325 3.7)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -48908,8 +48021,18 @@
 			(uuid "bb7ebb80-3d86-4a88-a8c7-a40d29297cf8")
 		)
 		(fp_line
-			(start -5.215 2.04)
-			(end -5.325 2.04)
+			(start -5.325 2.2)
+			(end -5.2 2.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0921c304-5762-4755-844a-821c9c5edc55")
+		)
+		(fp_line
+			(start -5.325 3.7)
+			(end 5.325 3.7)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -48948,24 +48071,24 @@
 			(uuid "5e1342d9-1771-48c4-827e-cd1694001987")
 		)
 		(fp_line
-			(start 5.215 2.04)
-			(end 5.325 2.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a415408a-a099-4873-a78b-c7bb9eddab2f")
-		)
-		(fp_line
-			(start 5.325 2.04)
-			(end 5.325 2.64)
+			(start 5.325 2.2)
+			(end 5.2 2.2)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
 			(uuid "18d86bb5-97eb-4c71-8515-23f93a8f2c4d")
+		)
+		(fp_line
+			(start 5.325 2.2)
+			(end 5.325 3.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a415408a-a099-4873-a78b-c7bb9eddab2f")
 		)
 		(fp_line
 			(start 5.105 2.75)
@@ -49270,7 +48393,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49283,42 +48406,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44954a07-a62a-4c96-b3ed-fd979515f6ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9e1024e-3024-4fab-89b2-0d000af14346")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b49c0623-667f-4988-8c42-bdd2fbe44687")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -49653,7 +48744,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49666,7 +48757,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49686,12 +48777,6 @@
 		(path "/dd0ef5a2-fd31-417f-829e-1769b7cbda5d")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -50059,7 +49144,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50072,42 +49157,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e0400fe-4c22-4fee-8572-8ab12c0aef7d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a1f27c2-d0c8-4e76-a12c-609db20c5bd5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/58707919-b6e0-4058-b376-d82a0de75eac")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -50455,7 +49508,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50468,42 +49521,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e12288a-7549-4044-96dd-651d92e1c54b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d04595b3-996e-401d-a6ef-8c6868019b72")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/575aec26-77ce-43d1-93cd-635e241793b5")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -50851,7 +49872,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50864,42 +49885,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "36f2c0eb-d69d-4eb6-82b7-a709cdb7859e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72c35581-d87f-4666-8daf-297c3d429c63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/377cbc24-c9bd-440b-996e-53f32a7df70d")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -51234,7 +50223,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51247,7 +50236,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51267,12 +50256,6 @@
 		(path "/3a4ddc79-60af-4493-af10-b19b0871474d")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "2" "1")
-			)
-		)
 		(solder_mask_margin 0)
 		(attr smd allow_soldermask_bridges)
 		(net_tie_pad_groups "1,1" "2,2" "3,3" "4,4")
@@ -51606,7 +50589,7 @@
 		(descr "Molex PicoBlade Connector System, 53048-0210, 2 Pins per row (http://www.molex.com/pdm_docs/sd/530480210_sd.pdf)")
 		(tags "connector Molex PicoBlade horizontal")
 		(property "Reference" "J1"
-			(at 0.62 -1.95 90)
+			(at 0.62 2.2 90)
 			(layer "F.SilkS")
 			(uuid "2fa01902-2b05-4364-af53-3684b7d7b726")
 			(effects
@@ -51638,7 +50621,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -51665,12 +50648,6 @@
 		(path "/ec22efc2-598d-4328-afab-506cbe8420d6")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -52099,7 +51076,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52114,12 +51091,6 @@
 		(path "/36e44be2-6d65-4608-bdae-62cc16c9ab45")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -53651,7 +52622,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53666,12 +52637,6 @@
 		(path "/5286d6d9-42aa-405c-98a3-252ac1b59a55")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -55203,7 +54168,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -55218,12 +54183,6 @@
 		(path "/726ffca8-45de-48b2-b173-cac9319e0ee0")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.310649 -0.644724)
@@ -56744,7 +55703,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps22917.pdf"
+		(property "Datasheet" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56757,7 +55716,7 @@
 				)
 			)
 		)
-		(property "Description" "1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56774,12 +55733,6 @@
 		(path "/3335a6b2-03f6-40ab-a740-fb68518f7a4b")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "4" "3" "2" "6" "5")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 1.61)
@@ -57216,7 +56169,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57229,42 +56182,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "296cd9d4-53a7-44d6-a2d6-8abbc225edd2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f76b9af-6a60-4a3c-815f-a5a39ebbbad6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/9ac9c7c0-d121-49ca-9bb4-b9625b11e264")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -57612,7 +56533,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57625,42 +56546,10 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b25e053-6248-41e4-96f0-38c5f87f00c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "550f8006-4cfb-4b08-9704-ba61c52a1191")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/15878671-21ff-407e-a42b-e9c53f120843")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.01 0.85)
@@ -57974,7 +56863,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0 1.68 90)
+			(at 3.01 0.03 90)
 			(layer "B.SilkS")
 			(uuid "75fd4a9d-d841-45a4-86b0-627c1c4a7414")
 			(effects
@@ -58009,7 +56898,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -58038,12 +56927,6 @@
 		(path "/d73b69a9-44ab-4e73-a505-be68c797f355")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -58138,7 +57021,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
-			(at 0 1.68 0)
+			(at -2.91 0.01 0)
 			(layer "B.SilkS")
 			(uuid "0ddfa0e4-f046-47db-b6e0-828967cf0372")
 			(effects
@@ -58173,7 +57056,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -58202,12 +57085,6 @@
 		(path "/2105502f-1cf6-464d-addc-dab0f7cbe662")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -58354,14 +57231,6 @@
 		(path "/ecf83c1c-11c4-4784-abc2-96bd011a5980")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "16" "15" "14" "13" "12" "11" "10"
-					"9"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -58777,7 +57646,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 0 1.85 90)
+			(at 3.61 0.07 90)
 			(layer "B.SilkS")
 			(uuid "d13afa38-9a35-4250-9a95-ade09c54686d")
 			(effects
@@ -58812,7 +57681,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -58841,12 +57710,6 @@
 		(path "/ed6c418f-95c3-4547-9388-8c25251a812c")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -58937,13 +57800,13 @@
 	(footprint "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "367c9027-a6f3-4c81-9ec2-f2d122ddb9d7")
-		(at 68.975 58.4)
+		(at 68 57.775 -90)
 		(descr "Molex PicoBlade Connector System, 53048-0210, 2 Pins per row (http://www.molex.com/pdm_docs/sd/530480210_sd.pdf)")
 		(tags "connector Molex PicoBlade horizontal")
 		(property "Reference" "J2"
-			(at 0.62 1.95 0)
+			(at 0.62 -3.1 90)
 			(layer "B.SilkS")
-			(uuid "2149ab1b-13d5-481c-9aca-dd45b77d7e51")
+			(uuid "8a812894-ab42-49da-9af7-4e6b70e19b47")
 			(effects
 				(font
 					(size 1 1)
@@ -58953,9 +57816,9 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 0.62 -5.65 0)
+			(at 0.62 -5.65 90)
 			(layer "B.Fab")
-			(uuid "784d0c01-4b6e-421c-a0ac-17806de7d5a8")
+			(uuid "4f48f2a7-1867-4e13-befb-142dd25dfa00")
 			(effects
 				(font
 					(size 1 1)
@@ -58965,10 +57828,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f95975b7-32b6-4e59-b3d8-51a42848876b")
+			(uuid "a89d9106-fefd-4c0f-874a-7e2aad09027a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58976,11 +57839,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "571d9f9f-630e-4e9d-8e5c-ad5fa197621b")
+			(uuid "91c8c7e6-512c-4431-807a-8377ee732475")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58989,7 +57852,7 @@
 			)
 		)
 		(property "KiLib_Generator" "connector/Molex"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "2e70be33-0ee8-49f3-ba0c-26006a790a51")
@@ -59005,23 +57868,17 @@
 		(path "/9543ac71-16d2-48d4-9dac-d440b0061988")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.61 -4.56)
-			(end 0.625 -4.56)
+			(start -0.25 1.45)
+			(end -0.75 1.45)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b3546b2e-91a8-4d95-b9e0-091426d95a4d")
+			(uuid "2b36b3e6-46ee-4274-8623-4b1d2a6d8da4")
 		)
 		(fp_line
 			(start -1.61 1.16)
@@ -59034,16 +57891,6 @@
 			(uuid "1239090f-9e80-4a30-847f-392b6a150b08")
 		)
 		(fp_line
-			(start -0.54 0.86)
-			(end -0.54 1.16)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "c07e0fd6-e9b0-478f-bb8b-9d40f9857b47")
-		)
-		(fp_line
 			(start -0.54 1.16)
 			(end -1.61 1.16)
 			(stroke
@@ -59052,6 +57899,26 @@
 			)
 			(layer "B.SilkS")
 			(uuid "8d8a8e23-328b-408e-a513-2560a3fe5936")
+		)
+		(fp_line
+			(start 1.79 1.16)
+			(end 2.86 1.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "fee85b3f-255f-4ca8-ad97-18d140464614")
+		)
+		(fp_line
+			(start 2.86 1.16)
+			(end 2.86 -4.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "b9c234e6-3ff8-4905-af84-5c632e49c50a")
 		)
 		(fp_line
 			(start -0.25 1.15)
@@ -59064,14 +57931,14 @@
 			(uuid "889c64e8-f5c9-449b-933d-32fde02a9aa4")
 		)
 		(fp_line
-			(start -0.25 1.45)
-			(end -0.75 1.45)
+			(start -0.54 0.86)
+			(end -0.54 1.16)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "2b36b3e6-46ee-4274-8623-4b1d2a6d8da4")
+			(uuid "c07e0fd6-e9b0-478f-bb8b-9d40f9857b47")
 		)
 		(fp_line
 			(start 0.625 0.86)
@@ -59104,14 +57971,14 @@
 			(uuid "dbd9c1aa-d9e5-421a-8708-432b2d8e22f1")
 		)
 		(fp_line
-			(start 1.79 1.16)
-			(end 2.86 1.16)
+			(start -1.61 -4.56)
+			(end 0.625 -4.56)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "fee85b3f-255f-4ca8-ad97-18d140464614")
+			(uuid "b3546b2e-91a8-4d95-b9e0-091426d95a4d")
 		)
 		(fp_line
 			(start 2.86 -4.56)
@@ -59124,26 +57991,6 @@
 			(uuid "e70c1bcf-c4b0-4c7f-bbbf-ffd6a77542c4")
 		)
 		(fp_line
-			(start 2.86 1.16)
-			(end 2.86 -4.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b9c234e6-3ff8-4905-af84-5c632e49c50a")
-		)
-		(fp_line
-			(start -2 -4.95)
-			(end 0.63 -4.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "12562267-0fdc-4465-8dd0-908730ea58fa")
-		)
-		(fp_line
 			(start -2 1.55)
 			(end -2 -4.95)
 			(stroke
@@ -59154,16 +58001,6 @@
 			(uuid "83973d60-4c1e-4019-94b6-d8749345c575")
 		)
 		(fp_line
-			(start -0.16 1.25)
-			(end -0.16 1.55)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "826fec67-d109-4a8c-af6a-9820827664d8")
-		)
-		(fp_line
 			(start -0.16 1.55)
 			(end -2 1.55)
 			(stroke
@@ -59172,6 +58009,36 @@
 			)
 			(layer "B.CrtYd")
 			(uuid "0d7caaf3-2a99-4a2c-8b88-27f2e94e52ab")
+		)
+		(fp_line
+			(start 1.41 1.55)
+			(end 3.25 1.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "645283dd-f550-4f15-8c52-de7d8eca9f99")
+		)
+		(fp_line
+			(start 3.25 1.55)
+			(end 3.25 -4.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8d0e72b1-ce94-4af3-8e2d-843c2275a2d8")
+		)
+		(fp_line
+			(start -0.16 1.25)
+			(end -0.16 1.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "826fec67-d109-4a8c-af6a-9820827664d8")
 		)
 		(fp_line
 			(start 0.62 1.25)
@@ -59204,14 +58071,14 @@
 			(uuid "6d4d0b43-f95e-4085-96e7-61f4a623028f")
 		)
 		(fp_line
-			(start 1.41 1.55)
-			(end 3.25 1.55)
+			(start -2 -4.95)
+			(end 0.63 -4.95)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "645283dd-f550-4f15-8c52-de7d8eca9f99")
+			(uuid "12562267-0fdc-4465-8dd0-908730ea58fa")
 		)
 		(fp_line
 			(start 3.25 -4.95)
@@ -59224,26 +58091,6 @@
 			(uuid "2e95d24d-8f80-4233-80bc-22d2be020f43")
 		)
 		(fp_line
-			(start 3.25 1.55)
-			(end 3.25 -4.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "8d0e72b1-ce94-4af3-8e2d-843c2275a2d8")
-		)
-		(fp_line
-			(start -1.5 -4.45)
-			(end 0.625 -4.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "93706cc5-67c4-40cd-8110-7e4fb8e8c43a")
-		)
-		(fp_line
 			(start -1.5 1.05)
 			(end -1.5 -4.45)
 			(stroke
@@ -59252,16 +58099,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "b7adc980-85b8-4ba7-a7bc-4811e01339e6")
-		)
-		(fp_line
-			(start -0.65 0.75)
-			(end -0.65 1.05)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "0a27aa65-568a-4465-8877-a8b13565a5a2")
 		)
 		(fp_line
 			(start -0.65 1.05)
@@ -59274,6 +58111,36 @@
 			(uuid "16d0f791-d8b9-43bb-87a2-2ee59169f76c")
 		)
 		(fp_line
+			(start 1.9 1.05)
+			(end 2.75 1.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "f144a831-7920-4134-9546-f2ee6eaf5995")
+		)
+		(fp_line
+			(start 2.75 1.05)
+			(end 2.75 -4.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "5618b71e-701c-49e6-a1d1-34f8dd8d1284")
+		)
+		(fp_line
+			(start -0.65 0.75)
+			(end -0.65 1.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "0a27aa65-568a-4465-8877-a8b13565a5a2")
+		)
+		(fp_line
 			(start -0.5 0.75)
 			(end 0 0.042893)
 			(stroke
@@ -59282,16 +58149,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "c69511c9-9d6b-4770-adaf-e8e0b22bda9c")
-		)
-		(fp_line
-			(start 0 0.042893)
-			(end 0.5 0.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "5714a697-1d93-4a3e-88f7-ffe66739d461")
 		)
 		(fp_line
 			(start 0.625 0.75)
@@ -59324,14 +58181,24 @@
 			(uuid "1bbf83f2-65e5-4d22-b96e-c633e04c8e9c")
 		)
 		(fp_line
-			(start 1.9 1.05)
-			(end 2.75 1.05)
+			(start 0 0.042893)
+			(end 0.5 0.75)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "f144a831-7920-4134-9546-f2ee6eaf5995")
+			(uuid "5714a697-1d93-4a3e-88f7-ffe66739d461")
+		)
+		(fp_line
+			(start -1.5 -4.45)
+			(end 0.625 -4.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "93706cc5-67c4-40cd-8110-7e4fb8e8c43a")
 		)
 		(fp_line
 			(start 2.75 -4.45)
@@ -59343,18 +58210,8 @@
 			(layer "B.Fab")
 			(uuid "7f9a7a0f-0fd1-4255-bb2e-d525dff0c771")
 		)
-		(fp_line
-			(start 2.75 1.05)
-			(end 2.75 -4.45)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "5618b71e-701c-49e6-a1d1-34f8dd8d1284")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0.62 -3.75 0)
+			(at 0.62 -3.75 90)
 			(layer "B.Fab")
 			(uuid "14609e75-725b-493d-81d7-b23a18200fd3")
 			(effects
@@ -59366,7 +58223,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 0.8 1.3)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
@@ -59378,7 +58235,7 @@
 			(uuid "f6285bd6-99ab-4a3f-906f-22bf75105f33")
 		)
 		(pad "2" thru_hole oval
-			(at 1.25 0)
+			(at 1.25 0 270)
 			(size 0.8 1.3)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
@@ -59408,7 +58265,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 0 1.85 90)
+			(at -3.6225 0.02 90)
 			(layer "B.SilkS")
 			(uuid "bf9bac60-d292-48a8-a2f3-a7f08c8e9175")
 			(effects
@@ -59443,7 +58300,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -59472,12 +58329,6 @@
 		(path "/deaa2f15-2f40-4f52-83dd-fecd022fe379")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -59572,7 +58423,7 @@
 		(descr "Molex PicoBlade Connector System, 53048-0210, 2 Pins per row (http://www.molex.com/pdm_docs/sd/530480210_sd.pdf)")
 		(tags "connector Molex PicoBlade horizontal")
 		(property "Reference" "J5"
-			(at 0.62 1.95 0)
+			(at 0.62 -3.23 0)
 			(layer "B.SilkS")
 			(uuid "b0a6ba47-7841-4aef-9169-c55c308efe4c")
 			(effects
@@ -59607,7 +58458,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -59636,12 +58487,6 @@
 		(path "/2204269a-2587-4324-b1b5-b762d2a12a31")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -60039,7 +58884,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at 0 1.68 90)
+			(at 3.27 0.06 90)
 			(layer "B.SilkS")
 			(uuid "ea642005-446f-4ca6-bca8-c91a34c29653")
 			(effects
@@ -60074,7 +58919,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -60103,12 +58948,6 @@
 		(path "/50dd41a8-6fd5-41d7-a47f-4e6945cd397a")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -60203,7 +59042,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 0 1.85 90)
+			(at 3.57 0.06 90)
 			(layer "B.SilkS")
 			(uuid "9856ae81-ea27-4feb-9ad9-e0babe36eb10")
 			(effects
@@ -60238,7 +59077,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -60267,12 +59106,6 @@
 		(path "/8e3eaa09-f6f5-4044-9678-94e9eb569100")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -60367,7 +59200,7 @@
 		(descr "Molex PicoBlade Connector System, 53048-0210, 2 Pins per row (http://www.molex.com/pdm_docs/sd/530480210_sd.pdf)")
 		(tags "connector Molex PicoBlade horizontal")
 		(property "Reference" "J4"
-			(at 0.62 1.95 0)
+			(at 0.62 -3.23 0)
 			(layer "B.SilkS")
 			(uuid "87185233-bce4-44e6-9f4a-f294c7050ae0")
 			(effects
@@ -60402,7 +59235,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -60431,12 +59264,6 @@
 		(path "/5986e2de-f30d-4051-aad5-8fb636e4f2e3")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -60834,7 +59661,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 0 1.83 90)
+			(at 3.6 0.03 90)
 			(layer "B.SilkS")
 			(uuid "7a5f72b6-0cc7-49af-a42d-b3b7a4d2c52d")
 			(effects
@@ -60869,7 +59696,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -60898,12 +59725,6 @@
 		(path "/ff3c1c9a-8cc3-4a50-8b73-5fe6f968694a")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -60998,7 +59819,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
-			(at 0 1.85 0)
+			(at -3.51 0.01 0)
 			(layer "B.SilkS")
 			(uuid "fa012b3d-4696-44bb-8988-a942ff299df4")
 			(effects
@@ -61033,7 +59854,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -61062,12 +59883,6 @@
 		(path "/4711689d-e77e-4f44-8660-49e53cc5dc25")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61162,7 +59977,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
-			(at 0 1.85 90)
+			(at 0 -2.04 90)
 			(layer "B.SilkS")
 			(uuid "9d1087af-34f0-406b-8432-3767f8d14fa8")
 			(effects
@@ -61197,7 +60012,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -61226,12 +60041,6 @@
 		(path "/4a1a5440-fbf0-4bb9-9c84-45c16ab642a6")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61326,7 +60135,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 0 1.85 90)
+			(at 4.11 -0.02 90)
 			(layer "B.SilkS")
 			(uuid "85a768ac-a14d-4aac-b4be-087cc9369038")
 			(effects
@@ -61361,7 +60170,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -61390,12 +60199,6 @@
 		(path "/5b138565-e502-42d9-8ae9-220e862c9941")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -61489,7 +60292,7 @@
 		(at 95.25 116.7765)
 		(descr "Footprint for Cherry MX style switches with Gateron KS-2P02B01-01 hotswap socket")
 		(property "Reference" "MX22"
-			(at 0 8.3 0)
+			(at 0.95 8.4235 0)
 			(layer "B.SilkS")
 			(uuid "78626f37-4936-4824-96f6-eb39bd316de2")
 			(effects
@@ -61525,7 +60328,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -61541,12 +60344,6 @@
 		(path "/1c89f4c8-a8ea-4234-ae25-de77a6160e15")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -6.310649 0.644724)
@@ -62900,7 +61697,7 @@
 			(uuid "59437afc-c84f-485b-bb8f-e86908957f65")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 7.7 180)
+			(at 0.95 7.8235 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b750135e-5ad4-4fdd-a090-a1eb1d05153e")
@@ -63047,7 +61844,7 @@
 		(descr "Molex PicoBlade Connector System, 53048-0210, 2 Pins per row (http://www.molex.com/pdm_docs/sd/530480210_sd.pdf)")
 		(tags "connector Molex PicoBlade horizontal")
 		(property "Reference" "J3"
-			(at 0.62 1.95 0)
+			(at 0.62 -3.25 0)
 			(layer "B.SilkS")
 			(uuid "53e65905-ab9d-4f13-9618-90b19db347e1")
 			(effects
@@ -63082,7 +61879,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -63111,12 +61908,6 @@
 		(path "/fe87f588-e280-4145-a91e-0a2360682e95")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -63549,7 +62340,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -63578,12 +62369,6 @@
 		(path "/b53e4b18-4fb6-41aa-8d0b-0322fa75951b")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -63702,7 +62487,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv700.pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -63716,7 +62501,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "200mA Low Dropout Voltage Regulator, Fixed Output 1.9V, SOT-23-5"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -63734,12 +62519,6 @@
 		(path "/e4dc75e4-2aa7-4b0c-b14b-2586f3412868")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2" "4" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -63956,7 +62735,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 0 1.68 90)
+			(at -3.0325 -0.04 90)
 			(layer "B.SilkS")
 			(uuid "3f983b9f-12e6-42ae-b475-8731dc7f0020")
 			(effects
@@ -63991,7 +62770,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -64020,12 +62799,6 @@
 		(path "/59f1aaec-c98f-42af-9262-7f4f7e8826be")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -64120,7 +62893,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
-			(at 0 1.85 90)
+			(at 3.61 0.11 90)
 			(layer "B.SilkS")
 			(uuid "061e5a5c-0822-41d1-9871-4e281543a8bc")
 			(effects
@@ -64155,7 +62928,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -64184,12 +62957,6 @@
 		(path "/76a35ca5-7602-4564-bd76-e2b8637b759f")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -64321,7 +63088,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -64339,12 +63106,6 @@
 		(path "/6709a247-3792-469e-9ba3-92b6f50f1736")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A" "C" "B")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -64505,7 +63266,7 @@
 			(size 2 2)
 			(drill 1)
 			(property pad_prop_heatsink)
-			(layers "*.Cu")
+			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.125)
 			(net "CS_PAW")
@@ -64518,7 +63279,7 @@
 			(size 2 2)
 			(drill 1)
 			(property pad_prop_heatsink)
-			(layers "*.Cu")
+			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
 			(net "MOTION")
 			(pinfunction "B_B")
@@ -64530,7 +63291,7 @@
 			(size 2 2)
 			(drill 1)
 			(property pad_prop_heatsink)
-			(layers "*.Cu")
+			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
 			(net "GND")
 			(pinfunction "C_C")
@@ -64592,7 +63353,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "FPC connector for a OLED screen."
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -64621,33 +63382,27 @@
 		(path "/b5afcb87-ee62-4f66-bf54-db31696ab786")
 		(sheetname "/")
 		(sheetfile "keypaw48lr.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "MP" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 5.325 -2.04)
-			(end 5.325 -2.64)
+			(start 5.325 -2.2)
+			(end 5.325 -3.7)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "30aca321-77d5-4945-b035-82f938c7d353")
+			(uuid "3d757824-f3f4-4d96-b0f9-2dd889e8b138")
 		)
 		(fp_line
-			(start 5.215 -2.04)
-			(end 5.325 -2.04)
+			(start 5.325 -2.2)
+			(end 5.2 -2.2)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "717fe16f-43d1-447a-b1b6-3c0e8fad5fda")
+			(uuid "c00c5c78-b038-4118-937e-d2fa2af40564")
 		)
 		(fp_line
 			(start -2.05 0.55)
@@ -64680,8 +63435,18 @@
 			(uuid "0ae4c9cf-0b32-473c-b5a1-fb1d4024bf5d")
 		)
 		(fp_line
-			(start -5.215 -2.04)
-			(end -5.325 -2.04)
+			(start -5.325 -2.2)
+			(end -5.2 -2.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "717fe16f-43d1-447a-b1b6-3c0e8fad5fda")
+		)
+		(fp_line
+			(start -5.325 -2.2)
+			(end -5.325 -3.7)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -64690,14 +63455,14 @@
 			(uuid "2eb4ef4e-3b0d-49e8-956c-70728d665587")
 		)
 		(fp_line
-			(start -5.325 -2.04)
-			(end -5.325 -2.64)
+			(start -5.325 -3.7)
+			(end 5.325 -3.7)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "3d757824-f3f4-4d96-b0f9-2dd889e8b138")
+			(uuid "30aca321-77d5-4945-b035-82f938c7d353")
 		)
 		(fp_line
 			(start 5.105 -2.75)
@@ -65033,7 +63798,7 @@
 		(uuid "53b12081-5cc9-4c8d-89e1-98e5e9447ec7")
 	)
 	(gr_line
-		(start 67 56)
+		(start 66 56)
 		(end 45 56)
 		(stroke
 			(width 0.05)
@@ -65043,8 +63808,8 @@
 		(uuid "2dda2164-bf21-45a9-9096-20804b53f99c")
 	)
 	(gr_line
-		(start 72 51)
-		(end 67 56)
+		(start 71 51)
+		(end 66 56)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -65084,7 +63849,7 @@
 	)
 	(gr_line
 		(start 91 51)
-		(end 72 51)
+		(end 71 51)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -65782,6 +64547,14 @@
 		(uuid "4472834f-bc7f-4b4b-b797-ffbc84cf1976")
 	)
 	(segment
+		(start 68 59.025)
+		(end 68 61.065)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "460ed2a2-7a1e-481e-abde-9399bf49de6c")
+	)
+	(segment
 		(start 77.35 114.6125)
 		(end 78.2 114.6125)
 		(width 0.25)
@@ -65894,12 +64667,12 @@
 		(uuid "67f3fcbc-66df-4ae2-aa4a-9c22a4620e3e")
 	)
 	(segment
-		(start 70.225 58.84)
+		(start 68 61.065)
 		(end 64.67 64.395)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "GND")
-		(uuid "6a60a6d5-b5c7-46be-834b-ef4976469cb3")
+		(uuid "67fbdf1a-1c5d-4909-994f-6e909e8467a7")
 	)
 	(segment
 		(start 116.3 71.75)
@@ -66196,14 +64969,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "b4e63c34-1da6-4ba4-94ab-16d3e2651ca9")
-	)
-	(segment
-		(start 70.225 58.4)
-		(end 70.225 58.84)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "b678e390-afae-4155-9d53-ea383a73865f")
 	)
 	(segment
 		(start 49.74 66.625)
@@ -71886,20 +70651,140 @@
 		(uuid "e184b708-8ff9-4f2d-98eb-c11671183a28")
 	)
 	(segment
-		(start 74.0625 57.325)
-		(end 74.2 57.4625)
+		(start 56.035 83.19)
+		(end 61.67 83.19)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "LED")
-		(uuid "62c16b73-51d0-41a7-a227-8b808425b12c")
+		(net "PERI_EN")
+		(uuid "0408a65a-a1c5-4890-a628-e731be042e74")
 	)
 	(segment
-		(start 58.052617 59.375)
-		(end 60.102617 57.325)
+		(start 63.39 81.47)
+		(end 63.39 79.5)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "LED")
-		(uuid "894520f8-123f-42f2-b834-ef2912f3b0e0")
+		(net "PERI_EN")
+		(uuid "2a0ba997-5e34-40af-a23f-06245c63697b")
+	)
+	(segment
+		(start 64.14 70.75)
+		(end 68.17 70.75)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "2b274d5e-6c17-435e-958e-397fb2d5e394")
+	)
+	(segment
+		(start 61.67 83.19)
+		(end 63.39 81.47)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "3ba2dcdf-7653-4379-9870-8762885bc7b8")
+	)
+	(segment
+		(start 63.16 79.25)
+		(end 63.39 79.02)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "4d8e4e6b-7574-4bec-93e8-a40b521e25d6")
+	)
+	(segment
+		(start 63.16 79.25)
+		(end 63.16 79.27)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "4e2cdedf-1d07-48a4-a8af-76824c75c7e7")
+	)
+	(segment
+		(start 63.39 79.5)
+		(end 63.39 79.02)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "511bda78-fb84-4ec4-8146-b4e65cd394ba")
+	)
+	(segment
+		(start 63.16 79.27)
+		(end 63.39 79.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "6637aa14-98aa-464a-bf4d-4a7d5710af51")
+	)
+	(segment
+		(start 63.39 71.5)
+		(end 64.14 70.75)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "6eccc26a-3423-4990-89a7-b8f087b879d1")
+	)
+	(segment
+		(start 62.05 79.25)
+		(end 63.16 79.25)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "764f71db-8358-4b5a-bc1a-ad47e6acf50d")
+	)
+	(segment
+		(start 68.17 70.75)
+		(end 69.08 71.66)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "a0f50502-7a21-48f4-b7b6-eb369c29950c")
+	)
+	(segment
+		(start 63.39 79.02)
+		(end 63.39 71.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "a4e5785a-5915-4534-ae2b-1bb14bfec286")
+	)
+	(segment
+		(start 54.51 84.715)
+		(end 56.035 83.19)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "bb0831f2-99fd-40e2-90bc-1a6224fdb16f")
+	)
+	(segment
+		(start 69.08 70.31)
+		(end 69.08 71.66)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "PERI_EN")
+		(uuid "fb86f851-506d-4937-9a36-62017c1c10db")
+	)
+	(segment
+		(start 70.118576 70.31)
+		(end 70.98 71.171424)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "PERI_EN")
+		(uuid "14e90a3b-87c7-42d2-acde-3dd1efe9ffc5")
+	)
+	(segment
+		(start 69.08 70.31)
+		(end 70.118576 70.31)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "PERI_EN")
+		(uuid "49db047a-c82a-488c-ad68-8668fd6ce084")
+	)
+	(segment
+		(start 70.98 71.171424)
+		(end 70.98 71.66)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "PERI_EN")
+		(uuid "c6861a96-790b-4c46-b01c-fa25b38c0175")
 	)
 	(segment
 		(start 51.91 59.375)
@@ -71907,7 +70792,39 @@
 		(width 0.25)
 		(layer "F.Cu")
 		(net "LED")
-		(uuid "9991762b-da78-4021-977f-2707721538cb")
+		(uuid "2af48616-7f10-40bc-84a1-b2403aae1ac9")
+	)
+	(segment
+		(start 49.43 61.855)
+		(end 51.91 59.375)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "LED")
+		(uuid "4f15bdf9-cbf4-4131-aed9-1433e0cbae00")
+	)
+	(segment
+		(start 60.727617 56.7)
+		(end 73.4375 56.7)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "LED")
+		(uuid "4fe32ee1-155a-46e3-8f3d-814d531e4105")
+	)
+	(segment
+		(start 73.4375 56.7)
+		(end 74.2 57.4625)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "LED")
+		(uuid "67aa162e-b361-4667-958b-2289793ced56")
+	)
+	(segment
+		(start 58.052617 59.375)
+		(end 60.727617 56.7)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "LED")
+		(uuid "8966a524-d40f-4c50-b362-a0f30c90cb7a")
 	)
 	(segment
 		(start 74.2 57.4625)
@@ -71916,22 +70833,6 @@
 		(layer "F.Cu")
 		(net "LED")
 		(uuid "9da2a70d-f004-4a56-acc8-59e56d41c9c0")
-	)
-	(segment
-		(start 60.102617 57.325)
-		(end 74.0625 57.325)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "LED")
-		(uuid "b20b2472-e083-4b02-b666-3c0fe9c32333")
-	)
-	(segment
-		(start 49.43 61.855)
-		(end 51.91 59.375)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "LED")
-		(uuid "ff0cac80-d720-4a71-8719-1cdcef72b4f6")
 	)
 	(segment
 		(start 74.2 57.4625)
@@ -73134,14 +72035,6 @@
 		(uuid "fd5da5f3-68c3-47e8-adac-7360d00f652a")
 	)
 	(segment
-		(start 62.02 61.46)
-		(end 64.275 61.46)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+BATT")
-		(uuid "2e60d97d-477e-4dec-9815-51507c99d0a5")
-	)
-	(segment
 		(start 64.67 59.315)
 		(end 61.135 59.315)
 		(width 0.5)
@@ -73158,20 +72051,28 @@
 		(uuid "5047b19c-7fa7-4d4f-ad30-c6c2d49941d8")
 	)
 	(segment
-		(start 64.67 59.315)
-		(end 68.06 59.315)
+		(start 61.8 61.46)
+		(end 64.275 61.46)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+BATT")
-		(uuid "a2adebec-1ed4-4067-a992-201f4897f2ce")
+		(uuid "6cfa711c-0aab-49de-a967-1f1b873e1d38")
 	)
 	(segment
-		(start 68.06 59.315)
-		(end 68.975 58.4)
+		(start 66.21 57.775)
+		(end 68 57.775)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+BATT")
-		(uuid "b770ac63-f55f-4a14-96c8-dcb6ec38f233")
+		(uuid "871262b0-c48f-4b8e-a5a8-40c3e1c3e111")
+	)
+	(segment
+		(start 64.67 59.315)
+		(end 66.21 57.775)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+BATT")
+		(uuid "f22db05b-1ed4-4b35-8daf-6e3555fb1bfb")
 	)
 	(segment
 		(start 61.135 59.315)
@@ -73332,14 +72233,6 @@
 		(layer "B.Cu")
 		(net "+3.3V")
 		(uuid "08ce412e-8099-4bdd-8325-00dcd0fcf8a1")
-	)
-	(segment
-		(start 113.57 105.64)
-		(end 106.33 105.64)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "+3.3V")
-		(uuid "0c55ed98-b192-4831-be6d-601609fafc55")
 	)
 	(segment
 		(start 104.19 68.98)
@@ -74734,142 +73627,6 @@
 		(uuid "f8fa6183-5d2b-45de-8529-b86065657e4d")
 	)
 	(segment
-		(start 56.035 83.19)
-		(end 61.67 83.19)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "0408a65a-a1c5-4890-a628-e731be042e74")
-	)
-	(segment
-		(start 63.39 81.47)
-		(end 63.39 79.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "2a0ba997-5e34-40af-a23f-06245c63697b")
-	)
-	(segment
-		(start 64.14 70.75)
-		(end 68.17 70.75)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "2b274d5e-6c17-435e-958e-397fb2d5e394")
-	)
-	(segment
-		(start 61.67 83.19)
-		(end 63.39 81.47)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "3ba2dcdf-7653-4379-9870-8762885bc7b8")
-	)
-	(segment
-		(start 63.16 79.25)
-		(end 63.39 79.02)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "4d8e4e6b-7574-4bec-93e8-a40b521e25d6")
-	)
-	(segment
-		(start 63.16 79.25)
-		(end 63.16 79.27)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "4e2cdedf-1d07-48a4-a8af-76824c75c7e7")
-	)
-	(segment
-		(start 63.39 79.5)
-		(end 63.39 79.02)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "511bda78-fb84-4ec4-8146-b4e65cd394ba")
-	)
-	(segment
-		(start 63.16 79.27)
-		(end 63.39 79.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "6637aa14-98aa-464a-bf4d-4a7d5710af51")
-	)
-	(segment
-		(start 63.39 71.5)
-		(end 64.14 70.75)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "6eccc26a-3423-4990-89a7-b8f087b879d1")
-	)
-	(segment
-		(start 62.05 79.25)
-		(end 63.16 79.25)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "764f71db-8358-4b5a-bc1a-ad47e6acf50d")
-	)
-	(segment
-		(start 68.17 70.75)
-		(end 69.08 71.66)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "a0f50502-7a21-48f4-b7b6-eb369c29950c")
-	)
-	(segment
-		(start 63.39 79.02)
-		(end 63.39 71.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "a4e5785a-5915-4534-ae2b-1bb14bfec286")
-	)
-	(segment
-		(start 54.51 84.715)
-		(end 56.035 83.19)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "bb0831f2-99fd-40e2-90bc-1a6224fdb16f")
-	)
-	(segment
-		(start 69.08 70.31)
-		(end 69.08 71.66)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "PERI_EN")
-		(uuid "fb86f851-506d-4937-9a36-62017c1c10db")
-	)
-	(segment
-		(start 70.118576 70.31)
-		(end 70.98 71.171424)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "PERI_EN")
-		(uuid "14e90a3b-87c7-42d2-acde-3dd1efe9ffc5")
-	)
-	(segment
-		(start 69.08 70.31)
-		(end 70.118576 70.31)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "PERI_EN")
-		(uuid "49db047a-c82a-488c-ad68-8668fd6ce084")
-	)
-	(segment
-		(start 70.98 71.171424)
-		(end 70.98 71.66)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "PERI_EN")
-		(uuid "c6861a96-790b-4c46-b01c-fa25b38c0175")
-	)
-	(segment
 		(start 177.54 109.855)
 		(end 179.45 109.855)
 		(width 0.25)
@@ -75668,70 +74425,6 @@
 		(layer "B.Cu")
 		(net "Net-(LED10-DIN)")
 		(uuid "c829cc66-9de4-4bd1-b299-b183f0043cb6")
-	)
-	(segment
-		(start 177.54 143.1925)
-		(end 179.45 143.1925)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D24-A)")
-		(uuid "0452ea20-6cbc-4b2b-ac0c-67ad4627cbc7")
-	)
-	(segment
-		(start 180.34 132.36)
-		(end 177.41 129.43)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D24-A)")
-		(uuid "20c93333-0c8d-4ec9-8671-a375061de4b6")
-	)
-	(segment
-		(start 180.34 135.682501)
-		(end 180.34 132.36)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D24-A)")
-		(uuid "34e8235f-af20-4908-a0a2-db8e1c7fda36")
-	)
-	(segment
-		(start 177.41 129.43)
-		(end 173.515 129.43)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D24-A)")
-		(uuid "801f0d77-d478-48d0-b1b2-5142843f4cad")
-	)
-	(segment
-		(start 178.81 137.212501)
-		(end 180.34 135.682501)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D24-A)")
-		(uuid "a987ddef-6fea-4a31-961b-68a89e8a5315")
-	)
-	(segment
-		(start 179.45 141.2925)
-		(end 178.81 140.6525)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "Net-(D24-A)")
-		(uuid "80826e77-391d-4e30-8e25-d00b36207cb8")
-	)
-	(segment
-		(start 178.81 137.212501)
-		(end 178.81 140.6525)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "Net-(D24-A)")
-		(uuid "a440c050-dfb2-496f-bca2-d1dc35e49c13")
-	)
-	(segment
-		(start 179.45 143.1925)
-		(end 179.45 141.2925)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "Net-(D24-A)")
-		(uuid "bb3de585-98ac-4612-b28c-bfaed070f942")
 	)
 	(segment
 		(start 177.54 71.755)
@@ -76582,6 +75275,14 @@
 		(uuid "33089663-839f-4822-9bc1-605d162d51e6")
 	)
 	(segment
+		(start 59.339903 65.375)
+		(end 61.8 62.914903)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "/BATT_J1+")
+		(uuid "38b613d7-2506-4243-a638-a9447fd08c61")
+	)
+	(segment
 		(start 56.2 61.75)
 		(end 57 60.95)
 		(width 0.5)
@@ -76591,19 +75292,75 @@
 	)
 	(segment
 		(start 56.2 65.375)
-		(end 59.559903 65.375)
+		(end 59.339903 65.375)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "/BATT_J1+")
-		(uuid "b690fdc0-3410-4f09-a844-ecdd0fc96743")
+		(uuid "78dbecdd-5356-4327-8af0-3130add53cca")
 	)
 	(segment
-		(start 59.559903 65.375)
-		(end 62.02 62.914903)
-		(width 0.5)
+		(start 177.54 143.1925)
+		(end 179.45 143.1925)
+		(width 0.25)
 		(layer "F.Cu")
-		(net "/BATT_J1+")
-		(uuid "ffcdacc6-342b-4420-a184-6c0bac4131d7")
+		(net "Net-(D24-A)")
+		(uuid "0452ea20-6cbc-4b2b-ac0c-67ad4627cbc7")
+	)
+	(segment
+		(start 180.34 132.36)
+		(end 177.41 129.43)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D24-A)")
+		(uuid "20c93333-0c8d-4ec9-8671-a375061de4b6")
+	)
+	(segment
+		(start 180.34 135.682501)
+		(end 180.34 132.36)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D24-A)")
+		(uuid "34e8235f-af20-4908-a0a2-db8e1c7fda36")
+	)
+	(segment
+		(start 177.41 129.43)
+		(end 173.515 129.43)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D24-A)")
+		(uuid "801f0d77-d478-48d0-b1b2-5142843f4cad")
+	)
+	(segment
+		(start 178.81 137.212501)
+		(end 180.34 135.682501)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D24-A)")
+		(uuid "a987ddef-6fea-4a31-961b-68a89e8a5315")
+	)
+	(segment
+		(start 179.45 141.2925)
+		(end 178.81 140.6525)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "Net-(D24-A)")
+		(uuid "80826e77-391d-4e30-8e25-d00b36207cb8")
+	)
+	(segment
+		(start 178.81 137.212501)
+		(end 178.81 140.6525)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "Net-(D24-A)")
+		(uuid "a440c050-dfb2-496f-bca2-d1dc35e49c13")
+	)
+	(segment
+		(start 179.45 143.1925)
+		(end 179.45 141.2925)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "Net-(D24-A)")
+		(uuid "bb3de585-98ac-4612-b28c-bfaed070f942")
 	)
 	(segment
 		(start 134.5 54.076499)
@@ -77254,22 +76011,6 @@
 		(uuid "fea0c275-8336-4071-b476-4c8761ab2af5")
 	)
 	(segment
-		(start 116.63 128.55)
-		(end 116.575 128.495)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "Net-(U2-LED_P)")
-		(uuid "3fc4f69c-2fe2-47e0-9b70-b3b1a847f0eb")
-	)
-	(segment
-		(start 118.77 128.55)
-		(end 116.63 128.55)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "Net-(U2-LED_P)")
-		(uuid "4d38c782-508e-4239-9468-ae347b7b1943")
-	)
-	(segment
 		(start 103.92 124.61)
 		(end 97.01 124.61)
 		(width 0.5)
@@ -77348,6 +76089,22 @@
 		(layer "B.Cu")
 		(net "/PAW_VDD")
 		(uuid "f0f30322-1b17-4470-beb7-cad8865543a1")
+	)
+	(segment
+		(start 116.63 128.55)
+		(end 116.575 128.495)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "Net-(U2-LED_P)")
+		(uuid "3fc4f69c-2fe2-47e0-9b70-b3b1a847f0eb")
+	)
+	(segment
+		(start 118.77 128.55)
+		(end 116.63 128.55)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "Net-(U2-LED_P)")
+		(uuid "4d38c782-508e-4239-9468-ae347b7b1943")
 	)
 	(zone
 		(layers "F.Cu" "B.Cu")
