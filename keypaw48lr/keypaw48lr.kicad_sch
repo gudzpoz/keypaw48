@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "052094ba-efae-41ac-bcac-3ea5f9c16259")
 	(paper "A4")
+	(title_block
+		(title "Keypaw48 Schematic (Left & Right Board)")
+		(date "2020-07-09")
+		(rev "v0.0.1")
+		(company "Kana")
+		(comment 1 "Unlike Keyball, it assumes a right-handed trackball so as to make PCB routing easier.")
+		(comment 2 "Keypaw48 will probably be a wireless split keyboard. It's inspired by Keyball series.")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -4076,6 +4084,18 @@
 		)
 	)
 	(rectangle
+		(start 177.8 132.715)
+		(end 283.845 164.465)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3486136c-0ff5-4b81-b68e-c877d4d1d799")
+	)
+	(rectangle
 		(start 12.7 161.925)
 		(end 55.88 197.485)
 		(stroke
@@ -4113,7 +4133,7 @@
 	)
 	(rectangle
 		(start 177.165 12.7)
-		(end 284.48 132.715)
+		(end 284.48 165.1)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4149,7 +4169,7 @@
 	)
 	(text "Trackball sensor (right only)\nUsing a tricky 1.9V VDD for PAW3395.\nDesigned for right board.\nNo soldering needed for left board."
 		(exclude_from_sim no)
-		(at 40.005 120.65 0)
+		(at 38.1 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4176,6 +4196,16 @@
 			)
 		)
 		(uuid "5947e720-550f-485c-bd70-af3ff80f1c77")
+	)
+	(text "Edge Lighting\nNo in keyboard matrix\n(Quirky wiring for easier PCB routing.)"
+		(exclude_from_sim no)
+		(at 233.68 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a8c7095-69b7-4330-9e2b-ca6f95989c4d")
 	)
 	(text "OLED connector\nJ6/J7 will be on different sides (front/back).\nLeft/right boards will use J6/J7 respectively."
 		(exclude_from_sim no)
@@ -4584,8 +4614,8 @@
 		(uuid "77635200-512b-4a20-b7a9-58d67aa996d4")
 	)
 	(no_connect
-		(at 278.13 116.205)
-		(uuid "8ff9dc25-36c7-4f5e-a859-0096d9f2eb20")
+		(at 278.13 143.51)
+		(uuid "dec808a6-b4d9-4388-856a-adafeea1688c")
 	)
 	(wire
 		(pts
@@ -4596,6 +4626,16 @@
 			(type default)
 		)
 		(uuid "04548d5e-fbef-4846-86a2-d5a668269b8a")
+	)
+	(wire
+		(pts
+			(xy 186.055 132.08) (xy 186.055 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05300c5f-e083-42fe-9be1-76dfa2bf06d7")
 	)
 	(wire
 		(pts
@@ -4799,6 +4839,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.295 116.205) (xy 201.295 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291d0968-e35f-4590-b5aa-5a4b3b4635a4")
+	)
+	(wire
+		(pts
 			(xy 123.825 75.565) (xy 136.525 75.565)
 		)
 		(stroke
@@ -4806,16 +4856,6 @@
 			(type default)
 		)
 		(uuid "29dfa9da-00cb-425f-baed-a675d72e6e4f")
-	)
-	(wire
-		(pts
-			(xy 185.42 104.775) (xy 185.42 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b8b0501-eccb-4447-b353-2752354026c0")
 	)
 	(wire
 		(pts
@@ -4956,6 +4996,16 @@
 			(type default)
 		)
 		(uuid "36dba7c3-568d-49ea-9e4a-f856a8f92adf")
+	)
+	(wire
+		(pts
+			(xy 200.66 143.51) (xy 200.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fdcf0d-11f0-48ef-9fda-df36d75f7406")
 	)
 	(wire
 		(pts
@@ -5139,6 +5189,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.305 116.205) (xy 281.305 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583f34c1-8170-411c-a685-0ca201bfc0e3")
+	)
+	(wire
+		(pts
 			(xy 91.44 136.525) (xy 86.995 136.525)
 		)
 		(stroke
@@ -5299,6 +5359,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 104.775) (xy 185.42 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71eac301-dd38-4fb8-aa18-6ae8823fc6d8")
+	)
+	(wire
+		(pts
 			(xy 156.845 81.915) (xy 156.845 96.52)
 		)
 		(stroke
@@ -5306,6 +5376,16 @@
 			(type default)
 		)
 		(uuid "71eda7ed-5dcf-4f71-9c7b-af18522ee804")
+	)
+	(wire
+		(pts
+			(xy 217.17 132.08) (xy 217.17 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fd340a-1aad-4d50-9d2e-80ec6815d93e")
 	)
 	(wire
 		(pts
@@ -5469,6 +5549,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 132.08) (xy 201.93 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8554f4ee-a9d5-483b-8334-ab35fbe759e9")
+	)
+	(wire
+		(pts
 			(xy 67.945 144.145) (xy 80.645 144.145)
 		)
 		(stroke
@@ -5629,6 +5719,16 @@
 	)
 	(wire
 		(pts
+			(xy 216.535 132.08) (xy 201.93 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eadc496-6154-49c5-bd0d-2ece7396a9e7")
+	)
+	(wire
+		(pts
 			(xy 25.4 175.895) (xy 25.4 180.34)
 		)
 		(stroke
@@ -5726,16 +5826,6 @@
 			(type default)
 		)
 		(uuid "b073afd9-97f9-4392-8530-7a9fdb0a98c2")
-	)
-	(wire
-		(pts
-			(xy 185.42 116.205) (xy 186.69 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b076df03-4f1e-4b13-8161-5beddc8801b1")
 	)
 	(wire
 		(pts
@@ -6029,6 +6119,16 @@
 	)
 	(wire
 		(pts
+			(xy 216.535 143.51) (xy 216.535 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e044a933-a062-4553-9be3-83450ae2ddd7")
+	)
+	(wire
+		(pts
 			(xy 80.645 144.145) (xy 86.995 144.145)
 		)
 		(stroke
@@ -6046,6 +6146,16 @@
 			(type default)
 		)
 		(uuid "e2486582-c4e0-4336-ad35-0d99aac1c6e6")
+	)
+	(wire
+		(pts
+			(xy 281.305 132.08) (xy 217.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e254d5b2-e943-45c2-be31-4139cd23a3ed")
 	)
 	(wire
 		(pts
@@ -6079,6 +6189,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 116.205) (xy 281.305 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e848df70-8249-4ef9-bc09-1e33464b3cc3")
+	)
+	(wire
+		(pts
 			(xy 40.64 60.96) (xy 40.64 71.12)
 		)
 		(stroke
@@ -6086,6 +6206,16 @@
 			(type default)
 		)
 		(uuid "ea051221-7fa5-48f4-bcd7-6421b6bcdc63")
+	)
+	(wire
+		(pts
+			(xy 200.66 132.08) (xy 186.055 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec10a8e3-a4a0-44cc-94bc-9eaa75d7fb8b")
 	)
 	(wire
 		(pts
@@ -6178,6 +6308,26 @@
 		(uuid "04aad5b2-77d9-485d-bb42-be7c61ed4d5f")
 	)
 	(label "LED+"
+		(at 255.27 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b506e56-db4a-4730-910c-bc1e9f8333f6")
+	)
+	(label "LED+"
+		(at 208.915 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cb417d2-9700-47dc-827a-335767b8f172")
+	)
+	(label "LED+"
 		(at 270.51 81.915 0)
 		(effects
 			(font
@@ -6186,6 +6336,16 @@
 			(justify left bottom)
 		)
 		(uuid "15260093-474a-4ef3-ad1e-be262b3826e4")
+	)
+	(label "LED+"
+		(at 240.03 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17babbe5-1bd6-48ef-b8f0-86543b0aecb0")
 	)
 	(label "LED+"
 		(at 194.31 20.32 0)
@@ -6208,7 +6368,7 @@
 		(uuid "2e44eed4-9dd2-4fe0-b9de-6c9c3f923b59")
 	)
 	(label "LED+"
-		(at 194.31 108.585 0)
+		(at 193.675 108.585 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6258,6 +6418,16 @@
 		(uuid "42e8db3a-6f6e-472c-a9fa-0e3da393e611")
 	)
 	(label "LED+"
+		(at 193.04 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ef8a2fe-7a15-4c58-9fb6-7fd4d0408804")
+	)
+	(label "LED+"
 		(at 209.55 81.915 0)
 		(effects
 			(font
@@ -6286,6 +6456,16 @@
 			(justify left bottom)
 		)
 		(uuid "6a63eb67-dfde-4fd5-9245-3c61d1b07c43")
+	)
+	(label "LED+"
+		(at 224.79 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73519321-3f7d-4d8b-8648-daa78a693f53")
 	)
 	(label "LED+"
 		(at 255.27 81.915 0)
@@ -6356,6 +6536,16 @@
 			(justify left bottom)
 		)
 		(uuid "b1530616-cfb4-4bdc-a9d1-cee6f17a47cf")
+	)
+	(label "LED+"
+		(at 270.51 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3717268-a273-47e7-ba97-674352a21c50")
 	)
 	(label "LED+"
 		(at 240.03 28.575 0)
@@ -7873,6 +8063,25 @@
 		(dnp no)
 		(polyline
 			(pts
+				(xy 219.71 138.43) (xy 230.505 138.43) (xy 230.505 149.225) (xy 219.71 149.225)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "34dc103e-7569-47e0-8be7-42ce34d1fe05")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
 				(xy 219.71 84.455) (xy 230.505 84.455) (xy 230.505 95.25) (xy 219.71 95.25)
 			)
 			(stroke
@@ -8063,7 +8272,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 189.23 111.125) (xy 200.025 111.125) (xy 200.025 121.92) (xy 189.23 121.92)
+				(xy 188.595 111.125) (xy 199.39 111.125) (xy 199.39 121.92) (xy 188.595 121.92)
 			)
 			(stroke
 				(width 0)
@@ -8073,6 +8282,25 @@
 				(type none)
 			)
 			(uuid "8ff97e64-a0db-4e7d-b834-6b47690afb73")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 250.19 138.43) (xy 260.985 138.43) (xy 260.985 149.225) (xy 250.19 149.225)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "9bd878f3-aeee-4880-bf38-d1b85dfce4ee")
 		)
 	)
 	(rule_area
@@ -8120,6 +8348,25 @@
 		(dnp no)
 		(polyline
 			(pts
+				(xy 265.43 138.43) (xy 276.225 138.43) (xy 276.225 149.225) (xy 265.43 149.225)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "b84be3cc-697b-4b70-b56e-5ac9040adbb2")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
 				(xy 219.71 111.125) (xy 230.505 111.125) (xy 230.505 121.92) (xy 219.71 121.92)
 			)
 			(stroke
@@ -8139,6 +8386,25 @@
 		(dnp no)
 		(polyline
 			(pts
+				(xy 187.96 138.43) (xy 198.755 138.43) (xy 198.755 149.225) (xy 187.96 149.225)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "c2382bc5-315b-4d9e-8abd-06a2c26ef896")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
 				(xy 234.95 111.125) (xy 245.745 111.125) (xy 245.745 121.92) (xy 234.95 121.92)
 			)
 			(stroke
@@ -8149,6 +8415,25 @@
 				(type none)
 			)
 			(uuid "c4f6e129-7d5e-43a8-a678-41f49fbd0908")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 203.835 138.43) (xy 214.63 138.43) (xy 214.63 149.225) (xy 203.835 149.225)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "e465d1df-eb07-4ae4-b1d5-13f53231aad9")
 		)
 	)
 	(rule_area
@@ -8206,6 +8491,25 @@
 				(type none)
 			)
 			(uuid "f343e009-1573-4986-bfe8-9b4bfb007954")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 234.95 138.43) (xy 245.745 138.43) (xy 245.745 149.225) (xy 234.95 149.225)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "f3ab12de-837b-4536-a4da-934fa2f13052")
 		)
 	)
 	(rule_area
@@ -8370,6 +8674,75 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 276.225 149.225 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17fe826b-eff7-4282-acda-3982997d1d2f")
+		(property "Netclass" ""
+			(at 105.41 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED30"
+			(at 278.765 148.5265 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 214.63 149.225 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f06426d-3721-48c6-a0a4-3dcd067d2d14")
+		(property "Netclass" ""
+			(at 43.815 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED26"
+			(at 217.17 148.5265 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 276.225 68.58 270)
 		(fields_autoplaced yes)
 		(effects
@@ -8440,6 +8813,41 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 230.505 149.225 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "324e5ab6-e90c-465b-b5af-3b2bfc0835a8")
+		(property "Netclass" ""
+			(at 59.69 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED27"
+			(at 233.045 148.5265 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 245.745 121.92 270)
 		(fields_autoplaced yes)
 		(effects
@@ -8475,7 +8883,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 200.025 121.92 270)
+		(at 199.39 121.92 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8485,7 +8893,7 @@
 		)
 		(uuid "3606c9a0-b71f-4729-b3c0-1d9ab090bba5")
 		(property "Netclass" ""
-			(at 29.21 97.155 0)
+			(at 28.575 97.155 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8495,7 +8903,7 @@
 			)
 		)
 		(property "Component Class" "RLED19"
-			(at 202.565 121.2215 90)
+			(at 201.93 121.2215 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8685,6 +9093,41 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 245.745 149.225 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cd2ee27-8a78-4495-908f-2c062e560ff8")
+		(property "Netclass" ""
+			(at 74.93 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED28"
+			(at 248.285 148.5265 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 230.505 95.25 270)
 		(fields_autoplaced yes)
 		(effects
@@ -8706,6 +9149,41 @@
 		)
 		(property "Component Class" "RLED15"
 			(at 233.045 94.5515 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 198.755 149.225 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f45873d-0a2d-458f-8d94-421224f3d55e")
+		(property "Netclass" ""
+			(at 27.94 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED25"
+			(at 201.295 148.5265 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8916,6 +9394,41 @@
 		)
 		(property "Component Class" "RLED16"
 			(at 248.285 94.5515 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 260.985 149.225 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c94df7ae-a73f-4de3-93b9-b762beb92833")
+		(property "Netclass" ""
+			(at 90.17 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED29"
+			(at 263.525 148.5265 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11355,7 +11868,7 @@
 	)
 	(symbol
 		(lib_id "WS2812B_2020_V6:WS2812B-2020-V6")
-		(at 194.31 116.205 0)
+		(at 193.675 116.205 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11365,7 +11878,7 @@
 		(dnp no)
 		(uuid "277422fa-0ccd-432c-8730-96986b0ac4a3")
 		(property "Reference" "LED19"
-			(at 196.85 122.555 0)
+			(at 196.215 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11375,7 +11888,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 199.39 109.855 0)
+			(at 198.755 109.855 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11385,7 +11898,7 @@
 			)
 		)
 		(property "Footprint" "WS2812B_2020_V6:LED_WS2812B-2020_backmount_rev"
-			(at 195.58 123.825 0)
+			(at 194.945 123.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11397,7 +11910,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
-			(at 196.85 125.73 0)
+			(at 196.215 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11409,7 +11922,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 194.31 116.205 0)
+			(at 193.675 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11856,6 +12369,84 @@
 			(project "keypaw48lr"
 				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "325ef14e-7c73-4cd7-8eac-ff27ac0e99b8")
+		(property "Reference" "#PWR056"
+			(at 224.79 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a3658c3-8ac1-4bc2-a1c2-09f011c4cf1f")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -12484,6 +13075,93 @@
 		)
 	)
 	(symbol
+		(lib_id "WS2812B_2020_V6:WS2812B-2020-V6")
+		(at 208.915 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ed391be-3e36-47a2-9cb0-bfb4f837249f")
+		(property "Reference" "LED26"
+			(at 211.455 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 213.995 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812B_2020_V6:LED_WS2812B-2020_backmount_rev"
+			(at 210.185 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+			(at 211.455 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 208.915 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "caacbac7-f8ab-44e2-93b9-705c13362ae8")
+		)
+		(pin "2"
+			(uuid "bcf4e6af-fa25-4025-8b68-86ffa1827f91")
+		)
+		(pin "3"
+			(uuid "de912f42-a9a3-421e-a412-c888563e90a2")
+		)
+		(pin "4"
+			(uuid "90aee668-753e-41f8-8f48-a993f12e3dae")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 255.27 43.815 0)
 		(unit 1)
@@ -12643,6 +13321,84 @@
 			(project "keypaw48lr"
 				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
 					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.915 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4211df80-e87d-4d0f-9618-0c4b48bb389e")
+		(property "Reference" "#PWR055"
+			(at 208.915 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.915 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.915 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.915 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.915 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c623174c-1f1b-4cbe-beaa-48297b60ac58")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -12972,6 +13728,84 @@
 			(project "keypaw48lr"
 				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 270.51 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d7fd148-e841-44d6-a384-004bf681255f")
+		(property "Reference" "#PWR059"
+			(at 270.51 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "456e2569-1468-4078-bb73-3182bb42e6c6")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -14465,6 +15299,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 255.27 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61901649-254a-414b-a11c-ee2c2c73441a")
+		(property "Reference" "#PWR058"
+			(at 255.27 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40ffcaf1-ce64-46d6-8ee4-7e4d35fed5ed")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 154.305 192.405 270)
 		(unit 1)
 		(body_style 1)
@@ -15862,6 +16774,93 @@
 		)
 	)
 	(symbol
+		(lib_id "WS2812B_2020_V6:WS2812B-2020-V6")
+		(at 270.51 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82fcd402-c66f-4100-a884-61390b802f32")
+		(property "Reference" "LED30"
+			(at 273.05 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 275.59 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812B_2020_V6:LED_WS2812B-2020_backmount_rev"
+			(at 271.78 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+			(at 273.05 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 270.51 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a249e69-02fe-47de-9cc6-d00e4614eca4")
+		)
+		(pin "2"
+			(uuid "b59d94cd-3770-4df6-95a3-7bcf18288477")
+		)
+		(pin "3"
+			(uuid "001fefb8-7d89-4e36-b669-56cf28f48d2f")
+		)
+		(pin "4"
+			(uuid "37a68f16-3493-4251-855e-e009a0165e47")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "LED30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 156.845 144.145 0)
 		(unit 1)
@@ -16903,7 +17902,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 123.825 0)
+		(at 193.675 123.825 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16914,7 +17913,7 @@
 		(fields_autoplaced yes)
 		(uuid "9eff7e0d-b038-4344-a9d1-4fc3484d5f9e")
 		(property "Reference" "#PWR029"
-			(at 194.31 130.175 0)
+			(at 193.675 130.175 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16925,7 +17924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 128.905 0)
+			(at 193.675 128.905 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16935,7 +17934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 123.825 0)
+			(at 193.675 123.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16946,7 +17945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 123.825 0)
+			(at 193.675 123.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16957,7 +17956,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 123.825 0)
+			(at 193.675 123.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17245,6 +18244,258 @@
 		)
 	)
 	(symbol
+		(lib_id "WS2812B_2020_V6:WS2812B-2020-V6")
+		(at 240.03 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5cc2ad3-ac72-4851-9051-e142b8bf1818")
+		(property "Reference" "LED28"
+			(at 242.57 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 245.11 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812B_2020_V6:LED_WS2812B-2020_backmount_rev"
+			(at 241.3 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+			(at 242.57 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 240.03 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ec6f37a-4f3c-48a6-90ea-2fddd8e6db66")
+		)
+		(pin "2"
+			(uuid "9bd8795d-6791-4bc4-93e0-1272f7f96852")
+		)
+		(pin "3"
+			(uuid "0b7b0788-2ef5-46db-b181-99f0a91fa860")
+		)
+		(pin "4"
+			(uuid "d3996d2e-1a8a-4dce-8fff-0f98e6aff795")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WS2812B_2020_V6:WS2812B-2020-V6")
+		(at 224.79 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab15f5bc-306f-4182-abe6-64e4a0e55cc6")
+		(property "Reference" "LED27"
+			(at 227.33 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 229.87 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812B_2020_V6:LED_WS2812B-2020_backmount_rev"
+			(at 226.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+			(at 227.33 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 224.79 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c369f2ca-0f97-45d2-bef1-b3a4e7656c8f")
+		)
+		(pin "2"
+			(uuid "ced74ec2-9452-429b-b39c-e7bb1117495f")
+		)
+		(pin "3"
+			(uuid "311fb06b-a620-4353-a9da-b1a90bdfd755")
+		)
+		(pin "4"
+			(uuid "bce7a8c3-4e2b-4cf5-8894-db10a3f329df")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac23a905-b992-4b7e-8114-d4fde7b9c584")
+		(property "Reference" "#PWR057"
+			(at 240.03 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34555b87-a86e-40b9-92df-c77307a6d741")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 189.865 0)
 		(unit 1)
@@ -17393,6 +18644,93 @@
 			(project "keypaw48lr"
 				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WS2812B_2020_V6:WS2812B-2020-V6")
+		(at 255.27 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afca31e1-b0dc-46bf-ab06-c13a7c15c2f1")
+		(property "Reference" "LED29"
+			(at 257.81 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 260.35 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812B_2020_V6:LED_WS2812B-2020_backmount_rev"
+			(at 256.54 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+			(at 257.81 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 255.27 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "216ba1bc-72d8-41e5-ab1d-f9432248351c")
+		)
+		(pin "2"
+			(uuid "508f19e4-d663-4694-8eee-59977ac7b66f")
+		)
+		(pin "3"
+			(uuid "c964da64-ab96-4a0a-8b4d-2920d745f395")
+		)
+		(pin "4"
+			(uuid "8b784b35-fa21-4441-a0ca-86eefa94feed")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "LED29")
 					(unit 1)
 				)
 			)
@@ -19635,6 +20973,93 @@
 			(project "keypaw48lr"
 				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WS2812B_2020_V6:WS2812B-2020-V6")
+		(at 193.04 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2bded9b-8a30-4e53-bb66-a344d4b77ce3")
+		(property "Reference" "LED25"
+			(at 195.58 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 198.12 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WS2812B_2020_V6:LED_WS2812B-2020_backmount_rev"
+			(at 194.31 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/55827425.html"
+			(at 195.58 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 193.04 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4213437-15fc-4332-aea2-03972d2d0d4b")
+		)
+		(pin "2"
+			(uuid "7a5541e7-c430-4261-82a3-b11903e269a0")
+		)
+		(pin "3"
+			(uuid "2529cb95-54a4-44f2-b158-88240d173ee0")
+		)
+		(pin "4"
+			(uuid "6a52fe6d-213b-43ae-9a72-cc1517633a11")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "LED25")
 					(unit 1)
 				)
 			)
@@ -22247,6 +23672,84 @@
 			(project "keypaw48lr"
 				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdb63e02-bb4e-4d70-a192-e353b6287eae")
+		(property "Reference" "#PWR054"
+			(at 193.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b4ed95c-c793-402f-a392-08306c038e5d")
+		)
+		(instances
+			(project "keypaw48lr"
+				(path "/052094ba-efae-41ac-bcac-3ea5f9c16259"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
