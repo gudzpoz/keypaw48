@@ -6297,6 +6297,16 @@
 		)
 		(uuid "76328d5a-7ac0-44ce-94b1-9400d89cac62")
 	)
+	(label "PAW_VDD"
+		(at 47.625 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77057fcc-6c31-49a8-8e0e-5adabf14c472")
+	)
 	(label "LED+"
 		(at 270.51 55.245 0)
 		(effects
@@ -10907,7 +10917,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 159.385 101.6 270)
+		(at 156.845 101.6 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10917,7 +10928,7 @@
 		(dnp no)
 		(uuid "2204269a-2587-4324-b1b5-b762d2a12a31")
 		(property "Reference" "J5"
-			(at 155.575 104.775 90)
+			(at 160.655 104.775 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10928,7 +10939,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 155.575 107.315 90)
+			(at 160.655 107.315 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10939,7 +10950,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
-			(at 159.385 101.6 0)
+			(at 156.845 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10950,7 +10961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.385 101.6 0)
+			(at 156.845 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10961,7 +10972,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 159.385 101.6 0)
+			(at 156.845 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11882,7 +11893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+		(property "Footprint" "MX_SW_HS_REV:SOT-23-6_Handsoldering_REV"
 			(at 91.44 169.545 0)
 			(hide yes)
 			(show_name no)
@@ -14043,7 +14054,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 146.685 101.6 270)
+		(at 144.145 101.6 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14053,7 +14065,7 @@
 		(dnp no)
 		(uuid "5986e2de-f30d-4051-aad5-8fb636e4f2e3")
 		(property "Reference" "J4"
-			(at 142.875 104.775 90)
+			(at 147.955 104.775 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14064,7 +14076,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 142.875 107.315 90)
+			(at 147.955 107.315 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14075,7 +14087,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
-			(at 146.685 101.6 0)
+			(at 144.145 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14086,7 +14098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.685 101.6 0)
+			(at 144.145 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14097,7 +14109,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 146.685 101.6 0)
+			(at 144.145 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22242,7 +22254,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 133.985 101.6 270)
+		(at 131.445 101.6 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22252,7 +22265,7 @@
 		(dnp no)
 		(uuid "fe87f588-e280-4145-a91e-0a2360682e95")
 		(property "Reference" "J3"
-			(at 130.175 104.775 90)
+			(at 135.255 104.775 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22263,7 +22276,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 130.175 107.315 90)
+			(at 135.255 107.315 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22274,7 +22287,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
-			(at 133.985 101.6 0)
+			(at 131.445 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22285,7 +22298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.985 101.6 0)
+			(at 131.445 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22296,7 +22309,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.985 101.6 0)
+			(at 131.445 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
