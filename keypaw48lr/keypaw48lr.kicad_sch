@@ -4729,6 +4729,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 20.32) (xy 194.31 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e237c06-c057-4281-8f7e-7383f7980a09")
+	)
+	(wire
+		(pts
 			(xy 123.825 56.515) (xy 136.525 56.515)
 		)
 		(stroke
@@ -5086,16 +5096,6 @@
 			(type default)
 		)
 		(uuid "569a879c-e7a9-4e82-be1f-3f9bcd556a86")
-	)
-	(wire
-		(pts
-			(xy 189.23 28.575) (xy 194.31 28.575)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59dacc29-7414-4453-87d2-044e4953d906")
 	)
 	(wire
 		(pts
@@ -6128,6 +6128,16 @@
 		(uuid "15260093-474a-4ef3-ad1e-be262b3826e4")
 	)
 	(label "LED+"
+		(at 194.31 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b3d79fe-cfa2-423b-ac70-d90ec572fb9b")
+	)
+	(label "LED+"
 		(at 194.31 81.915 0)
 		(effects
 			(font
@@ -6603,7 +6613,7 @@
 	)
 	(global_label "COL0"
 		(shape input)
-		(at 64.77 48.26 0)
+		(at 64.77 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6613,7 +6623,7 @@
 		)
 		(uuid "51618d09-b204-4ed0-9c9d-98df43c04076")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.5933 48.26 0)
+			(at 72.5933 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6627,7 +6637,7 @@
 	)
 	(global_label "COL1"
 		(shape input)
-		(at 64.77 45.72 0)
+		(at 64.77 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6637,7 +6647,7 @@
 		)
 		(uuid "603cc8d7-2906-476b-8a37-f4e02131f09a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.5933 45.72 0)
+			(at 72.5933 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +6733,7 @@
 	)
 	(global_label "COL4"
 		(shape input)
-		(at 64.77 38.1 0)
+		(at 64.77 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6733,7 +6743,7 @@
 		)
 		(uuid "6dd21515-77cb-4605-a1f7-57462c6d5fd0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.5933 38.1 0)
+			(at 72.5933 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6747,7 +6757,7 @@
 	)
 	(global_label "COL5"
 		(shape input)
-		(at 64.77 35.56 0)
+		(at 64.77 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6757,7 +6767,7 @@
 		)
 		(uuid "73f20069-a6ca-4e23-8d65-c2b76e922904")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.5933 35.56 0)
+			(at 72.5933 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6795,7 +6805,7 @@
 	)
 	(global_label "COL2"
 		(shape input)
-		(at 64.77 43.18 0)
+		(at 64.77 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6805,7 +6815,7 @@
 		)
 		(uuid "7aafbe49-8d53-40f1-a8f6-a4582b715fd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.5933 43.18 0)
+			(at 72.5933 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6913,30 +6923,6 @@
 			)
 		)
 	)
-	(global_label "V_peri"
-		(shape input)
-		(at 189.23 28.575 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8edccbab-cb95-4bef-a644-197ca6a81c7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.56 28.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DS_OLED"
 		(shape input)
 		(at 123.19 184.785 180)
@@ -7011,7 +6997,7 @@
 	)
 	(global_label "ROW1"
 		(shape input)
-		(at 64.77 53.34 0)
+		(at 64.77 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7021,7 +7007,7 @@
 		)
 		(uuid "99530d88-47e9-46bf-bd03-cb7de1173102")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.0166 53.34 0)
+			(at 73.0166 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7225,6 +7211,30 @@
 			)
 		)
 	)
+	(global_label "V_peri"
+		(shape input)
+		(at 189.23 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba261169-5e90-459b-9556-65bdde235245")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.56 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DS_OLED"
 		(shape input)
 		(at 154.305 184.785 180)
@@ -7323,7 +7333,7 @@
 	)
 	(global_label "ROW0"
 		(shape input)
-		(at 64.77 50.8 0)
+		(at 64.77 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7333,7 +7343,7 @@
 		)
 		(uuid "cf63b85c-4517-4a7d-afea-15d44a4dcaca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.0166 50.8 0)
+			(at 73.0166 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7563,7 +7573,7 @@
 	)
 	(global_label "COL3"
 		(shape input)
-		(at 64.77 40.64 0)
+		(at 64.77 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7573,7 +7583,7 @@
 		)
 		(uuid "f4a39ae8-90d9-491e-9077-5b7e7401cbbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.5933 40.64 0)
+			(at 72.5933 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7678,6 +7688,1302 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 250.19 57.785) (xy 260.985 57.785) (xy 260.985 68.58) (xy 250.19 68.58)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "0330be82-2513-45af-a1f6-e0f53c8f9432")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 265.43 84.455) (xy 276.225 84.455) (xy 276.225 95.25) (xy 265.43 95.25)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "064cfdab-563a-4bbf-a8fb-74aef12d4cd7")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 265.43 57.785) (xy 276.225 57.785) (xy 276.225 68.58) (xy 265.43 68.58)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "11737a94-f679-4973-9eb0-22ac5dd2310f")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 250.19 84.455) (xy 260.985 84.455) (xy 260.985 95.25) (xy 250.19 95.25)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "14868429-73ea-4fa3-8738-e9c6d467deec")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 248.92 111.125) (xy 259.715 111.125) (xy 259.715 121.92) (xy 248.92 121.92)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "1ff2661d-aec5-495d-9c13-9561f9242e57")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 219.71 84.455) (xy 230.505 84.455) (xy 230.505 95.25) (xy 219.71 95.25)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "352b3d22-ed6f-49d9-9534-31cfbf16187e")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 234.95 31.115) (xy 245.745 31.115) (xy 245.745 41.91) (xy 234.95 41.91)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "448b9849-f3d2-48bd-a467-e09186b48bb7")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 265.43 31.115) (xy 276.225 31.115) (xy 276.225 41.91) (xy 265.43 41.91)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "4586850a-543f-4788-b85e-06813dd1eac6")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 204.47 84.455) (xy 215.265 84.455) (xy 215.265 95.25) (xy 204.47 95.25)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "475b4943-bc63-42c2-9468-aee728435595")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 234.95 84.455) (xy 245.745 84.455) (xy 245.745 95.25) (xy 234.95 95.25)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "5ec5fbcb-1ce4-40f7-b636-7899fb15ab1b")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 250.19 31.115) (xy 260.985 31.115) (xy 260.985 41.91) (xy 250.19 41.91)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "6ceb6669-0c4e-483c-8f49-b67c5684dc47")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 219.71 31.115) (xy 230.505 31.115) (xy 230.505 41.91) (xy 219.71 41.91)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "6e974055-91e1-43cf-a6bd-fc9b9176ef17")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 189.23 84.455) (xy 200.025 84.455) (xy 200.025 95.25) (xy 189.23 95.25)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "74e8b338-0395-4c14-95eb-43ce91930ffa")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 203.2 111.125) (xy 213.995 111.125) (xy 213.995 121.92) (xy 203.2 121.92)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "8dcf9e67-569f-4e40-8459-7c31845b1e34")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 264.16 111.125) (xy 274.955 111.125) (xy 274.955 121.92) (xy 264.16 121.92)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "8e7c6568-e26e-42a2-adce-6948324669dd")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 187.96 111.125) (xy 198.755 111.125) (xy 198.755 121.92) (xy 187.96 121.92)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "8ff97e64-a0db-4e7d-b834-6b47690afb73")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 204.47 57.785) (xy 215.265 57.785) (xy 215.265 68.58) (xy 204.47 68.58)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "acb21d19-d426-429c-a479-2e61f49171d6")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 189.23 31.115) (xy 200.025 31.115) (xy 200.025 41.91) (xy 189.23 41.91)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "afb37705-9a45-416f-b449-c04af80ddcfd")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 218.44 111.125) (xy 229.235 111.125) (xy 229.235 121.92) (xy 218.44 121.92)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "bb57df0d-0ff4-4d6a-8bcd-1f78a02a307f")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 233.68 111.125) (xy 244.475 111.125) (xy 244.475 121.92) (xy 233.68 121.92)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "c4f6e129-7d5e-43a8-a678-41f49fbd0908")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 189.23 57.785) (xy 200.025 57.785) (xy 200.025 68.58) (xy 189.23 68.58)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "e5c148a0-49a2-4586-98a3-a236c3a13ef3")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 219.71 57.785) (xy 230.505 57.785) (xy 230.505 68.58) (xy 219.71 68.58)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "e61503a8-9a3f-40d8-a425-7e2a04ab8b5d")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 234.95 57.785) (xy 245.745 57.785) (xy 245.745 68.58) (xy 234.95 68.58)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "f343e009-1573-4986-bfe8-9b4bfb007954")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 204.47 31.115) (xy 215.265 31.115) (xy 215.265 41.91) (xy 204.47 41.91)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "f8f312fd-3e19-47ee-b53d-95d7d6a4d134")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 215.265 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0307394f-036d-4422-b5d0-8577fc3fd2c1")
+		(property "Netclass" ""
+			(at 44.45 70.485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED14"
+			(at 217.805 94.5515 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 213.995 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06f5f7a4-6e6d-4816-b46d-2a289bac96e1")
+		(property "Netclass" ""
+			(at 43.18 97.155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED20"
+			(at 216.535 121.2215 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 259.715 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ebd1df3-801d-4811-8023-37ec2c2c54a1")
+		(property "Netclass" ""
+			(at 88.9 97.155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED23"
+			(at 262.255 121.2215 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 276.225 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10bcb892-f18f-442a-952a-6d44259ba904")
+		(property "Netclass" ""
+			(at 105.41 70.485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED18"
+			(at 278.765 94.5515 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 276.225 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2553ceec-07d9-47f1-a9ba-0cd1324ce3a5")
+		(property "Netclass" ""
+			(at 105.41 43.815 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED12"
+			(at 278.765 67.8815 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 274.955 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c73140a-630c-4b99-9904-d474f657b24c")
+		(property "Netclass" ""
+			(at 104.14 97.155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED24"
+			(at 277.495 121.2215 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 244.475 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3443dde6-f40c-4e23-bdee-9b541f04a2b7")
+		(property "Netclass" ""
+			(at 73.66 97.155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED22"
+			(at 247.015 121.2215 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 198.755 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3606c9a0-b71f-4729-b3c0-1d9ab090bba5")
+		(property "Netclass" ""
+			(at 27.94 97.155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED19"
+			(at 201.295 121.2215 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 200.025 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e906c17-6e77-43d6-8dbe-25734466d45c")
+		(property "Netclass" ""
+			(at 29.21 17.145 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED1"
+			(at 202.565 41.2115 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 260.985 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4eb32cb8-e3cb-4f9b-ad7c-f101ec27387a")
+		(property "Netclass" ""
+			(at 90.17 43.815 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED11"
+			(at 263.525 67.8815 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 200.025 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5552e140-4d72-41c3-aa41-0616b9fab1fe")
+		(property "Netclass" ""
+			(at 29.21 70.485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED13"
+			(at 202.565 94.5515 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 276.225 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e7190da-95fa-470a-807a-86d8a6298d9b")
+		(property "Netclass" ""
+			(at 105.41 17.145 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED6"
+			(at 278.765 41.2115 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 215.265 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71c47f50-3d3d-4690-bb5c-74128355f8da")
+		(property "Netclass" ""
+			(at 44.45 43.815 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED8"
+			(at 217.805 67.8815 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 230.505 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e495e5f-e7da-4db5-8b8d-823b364032b4")
+		(property "Netclass" ""
+			(at 59.69 70.485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED15"
+			(at 233.045 94.5515 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 200.025 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92e5a193-0423-4cc6-b045-ce83e8b34c15")
+		(property "Netclass" ""
+			(at 29.21 43.815 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED7"
+			(at 202.565 67.8815 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 230.505 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95d8b207-54fa-4ae9-9952-c7a703be36f1")
+		(property "Netclass" ""
+			(at 59.69 17.145 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED3"
+			(at 233.045 41.2115 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 260.985 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a77525d7-cb9e-4dc4-8f2f-2f4a195114d5")
+		(property "Netclass" ""
+			(at 90.17 17.145 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED5"
+			(at 263.525 41.2115 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 215.265 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc88b56b-8498-464e-a080-ccb403835988")
+		(property "Netclass" ""
+			(at 44.45 17.145 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED2"
+			(at 217.805 41.2115 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 245.745 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd4d0e0d-25b0-465f-8588-a8eaaa0b2c99")
+		(property "Netclass" ""
+			(at 74.93 17.145 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED4"
+			(at 248.285 41.2115 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 245.745 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfd80755-d2bc-43f8-ae85-7a55780bc461")
+		(property "Netclass" ""
+			(at 74.93 70.485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED16"
+			(at 248.285 94.5515 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 229.235 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dff18663-c1f4-47d1-8ff7-5bd6dbebd4dc")
+		(property "Netclass" ""
+			(at 58.42 97.155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED21"
+			(at 231.775 121.2215 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 245.745 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e30c4886-2100-4372-a635-2bfc635d33ca")
+		(property "Netclass" ""
+			(at 74.93 43.815 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED10"
+			(at 248.285 67.8815 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 230.505 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0a94c43-a22b-46f9-8dda-70f119a153df")
+		(property "Netclass" ""
+			(at 59.69 43.815 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED9"
+			(at 233.045 67.8815 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 260.985 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0f9e0bc-f0af-4496-ba64-6f346eb0c9d0")
+		(property "Netclass" ""
+			(at 90.17 70.485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "RLED17"
+			(at 263.525 94.5515 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)

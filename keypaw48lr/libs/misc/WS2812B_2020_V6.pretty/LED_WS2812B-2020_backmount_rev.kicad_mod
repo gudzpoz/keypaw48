@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(layer "F.SilkS")
-		(uuid "98d6bde1-9b4f-41cd-ab17-0cac616bcfcc")
+		(uuid "df98a3f5-e855-49a7-a7c3-0b060ac9bf8c")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(at 0 2.2 0)
 		(layer "F.Fab")
-		(uuid "330af63d-d24d-4f8c-8a24-6ab20a58a16d")
+		(uuid "594f91fb-eedf-425a-82f8-0bb02c195e08")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "304320ce-f310-44ae-aa60-95778d1803bf")
+		(uuid "eda2f5fa-4faf-4ab1-8d4d-fa3e0de7768f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d14b0aa0-2ae7-4117-8a0b-e82e7f25de9f")
+		(uuid "6deba83b-8aba-4ca1-a212-954fde4d03db")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -67,7 +67,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "0f505aad-58d0-4361-895e-b377fdbc121b")
+		(uuid "65ff226e-82ed-43f2-ae9a-d6cdf2d039de")
 	)
 	(fp_poly
 		(pts
@@ -79,7 +79,7 @@
 		)
 		(fill yes)
 		(layer "B.SilkS")
-		(uuid "e47ae8c1-d9b7-4454-857c-7dd7ce806c03")
+		(uuid "0ea18551-5db2-4640-bb8a-24884e6b0c8b")
 	)
 	(fp_rect
 		(start -0.8 -1)
@@ -90,7 +90,7 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "8cef99d8-1da1-4b0a-8876-e6040ccfb640")
+		(uuid "60d4909e-b986-4374-bab0-d14179e58180")
 	)
 	(fp_line
 		(start -1.52 -1.25)
@@ -100,7 +100,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f7e061eb-85dd-4e1b-ba5c-2215f8e52647")
+		(uuid "7ce866af-f58a-493f-8be5-e668e5624aee")
 	)
 	(fp_line
 		(start -1.52 1.25)
@@ -110,7 +110,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "20c0ba59-f223-4e92-88c1-1df4ab819af2")
+		(uuid "1fd0aa1d-4e2f-472b-93ce-27518a0b5613")
 	)
 	(fp_line
 		(start 1.52 -1.25)
@@ -120,7 +120,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9bd613e6-9c66-4536-bb1b-77303f52a6b3")
+		(uuid "ba208173-6d3e-4e94-9fb2-2a5f5d4e95f1")
 	)
 	(fp_line
 		(start 1.52 1.25)
@@ -130,7 +130,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c3a44441-5648-4c4c-b5ea-18ae2f856a28")
+		(uuid "246a807c-7cd3-4630-bdd1-60f58a706578")
 	)
 	(fp_line
 		(start -1.1 -0.45)
@@ -140,7 +140,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fccac85f-0711-4109-9faf-c3a7de5587a0")
+		(uuid "fd99c663-3324-4141-93f6-ac5f3c4458e2")
 	)
 	(fp_line
 		(start -1.1 1)
@@ -150,7 +150,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7fcc0272-b5aa-4553-8ebd-a4e28b06d520")
+		(uuid "8d834653-59cd-49da-8ab1-bb7bcc3e3b3e")
 	)
 	(fp_line
 		(start -0.55 -1)
@@ -160,7 +160,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "69d0e389-3aa6-4fab-9b87-7d1eaf1bd4ea")
+		(uuid "857e11e7-17c6-4478-b5d8-ccda1a7b9522")
 	)
 	(fp_line
 		(start 1.1 -1)
@@ -170,7 +170,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7f4276d6-f901-44a2-849d-eda00ab1257a")
+		(uuid "bd6bf987-428f-465c-9926-19145d0b819a")
 	)
 	(fp_line
 		(start 1.1 -1)
@@ -180,13 +180,13 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "30b2a12d-220f-4184-b603-d6bdd669c6f0")
+		(uuid "0fed9e12-312a-4674-8c24-9c75ac4c4d1f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.036241 2.75 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "6a9d39e7-659e-4af7-a4c3-46f349d5198c")
+		(uuid "0493262e-ded8-4f2c-89c7-0bce5371cae2")
 		(effects
 			(font
 				(size 1 1)
@@ -198,7 +198,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
-		(uuid "ced1cc14-3846-4f91-9a73-e543d33523de")
+		(uuid "6486e036-670d-4a00-9ae2-8609481d73b6")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -207,88 +207,88 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -1.9 0.55)
+		(at -2 0.55)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "40ce1012-7f1e-42bb-8fd1-14400ec2237a")
+		(uuid "4db6ede4-2ec0-401e-8acf-338edad3060f")
 	)
 	(pad "1" smd rect
 		(at -1.15 -0.55)
 		(size 0.6 0.7)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "feb4ed39-1c94-4fb2-830c-b6a280602451")
+		(uuid "d3dff4b0-7e2a-4f49-a039-780d847a6ac9")
 	)
 	(pad "1" smd rect
 		(at -1.15 0.55)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "82b80573-f5bf-45ac-867c-90aa8c9c2c26")
+		(uuid "a85f42bf-72ac-4b9a-85ce-48a908c51fd7")
 	)
 	(pad "2" thru_hole circle
-		(at -1.9 -0.55)
+		(at -2 -0.55)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "c412f4a2-75e3-4483-a28b-56d01ac01d97")
+		(uuid "acd2703a-877c-43a5-b91e-301a042ac50a")
 	)
 	(pad "2" smd rect
 		(at -1.15 -0.55)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "24dc3f47-a3ca-4e5d-aed3-e0782efbf26b")
+		(uuid "9f86d0b7-1ae2-4ed3-958c-4859e502c628")
 	)
 	(pad "2" smd rect
 		(at -1.15 0.55)
 		(size 0.6 0.7)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "af6e3daa-cd8b-4588-899d-37da3b4f7655")
+		(uuid "20b0e638-24be-4ffa-9ada-741ac34a7ad6")
 	)
 	(pad "3" smd rect
 		(at 1.15 -0.55)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "a3b0c8cb-f012-44b2-a228-bbb4738c8cb7")
+		(uuid "b4cd67ff-8a27-4989-a291-9536bec58b6e")
 	)
 	(pad "3" smd rect
 		(at 1.15 0.55)
 		(size 0.6 0.7)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "39d50d27-6b76-496b-9dde-277a14916b83")
+		(uuid "492d8ca0-0195-471f-a8a3-ac89f8245b2c")
 	)
 	(pad "3" thru_hole circle
-		(at 1.9 -0.55)
+		(at 2 -0.55)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "d82548ac-fdc9-431e-93bc-a3dc861e6710")
+		(uuid "3e99cbac-e0c2-43a2-842b-626ec8e3e8c0")
 	)
 	(pad "4" smd rect
 		(at 1.15 -0.55)
 		(size 0.6 0.7)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "59fbab33-6b5a-4e95-9742-45fa381fb0e5")
+		(uuid "44aacdd5-ee86-4d90-a0b2-5ff38ee75ba3")
 	)
 	(pad "4" smd rect
 		(at 1.15 0.55)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d652e5dd-7cb3-438f-a4b3-dd06bb3e4753")
+		(uuid "5b299df7-1eef-4520-9f50-688d66cf6d3c")
 	)
 	(pad "4" thru_hole circle
-		(at 1.9 0.55)
+		(at 2 0.55)
 		(size 0.6 0.6)
 		(drill 0.3)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "8f46e897-5d12-4b98-b7a9-d1859d93e4bc")
+		(uuid "ae43ef0c-b972-46b0-b127-9965a605bf25")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"

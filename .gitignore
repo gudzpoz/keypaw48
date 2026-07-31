@@ -26,3 +26,6 @@ _restore_backup_*
 # Exported BOM files
 *.xml
 *.csv
+
+# Plugins
+kbplacer.log

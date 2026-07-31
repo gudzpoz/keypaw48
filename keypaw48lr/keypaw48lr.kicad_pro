@@ -520,7 +520,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.25,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
@@ -531,11 +531,22 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.25,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.5,
+        "name": "VCC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -686,7 +697,7 @@
         "uuid": "052094ba-efae-41ac-bcac-3ea5f9c16259"
       }
     ],
-    "used_designators": "J1-9,SW1-5,MX1-24,JP1-8,LED1-24,R1-6,#PWR1-55,#PWR62-64,#PWR67-68,#PWR70-72,C1-15,D1-25,U1-4",
+    "used_designators": "U1-4,D1-25,C1-15,#PWR1-55,#PWR62-64,#PWR67-68,#PWR70-72,R1-6,LED1-24,JP1-8,MX1-24,SW1-5,J1-9",
     "variants": []
   },
   "sheets": [
