@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(layer "F.SilkS")
-		(uuid "1d446a86-0b4d-4bb5-b46b-0143bb1ca18f")
+		(uuid "709d08f0-65c6-44e1-8c98-984fb41f5af5")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 		(at 0 2.2 0)
 		(layer "F.Fab")
-		(uuid "5ce8faf2-1dd7-484d-a847-fb0465482174")
+		(uuid "34667258-45fa-495b-ba50-3c040fc9a4cf")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "90f20539-2fcd-4822-b169-6379d3f9b6f6")
+		(uuid "a732cd07-5be3-4a26-aa3d-d3238e526809")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fa8f5133-6e99-4939-a1df-80333e5dbd27")
+		(uuid "a7a38893-5d7c-44df-b4ad-b41e6fcb4a75")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,18 +65,18 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "a2f4a1c1-38c8-45b0-a0ce-f17acffd7f35")
+		(uuid "87a6febb-a71a-48a6-9972-0dc5fab7e8d2")
 	)
 	(fp_rect
-		(start -0.83 -1)
-		(end 0.83 1)
+		(start -0.775 -1)
+		(end 0.775 1)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "3c99b367-5e2b-4cf1-8fb0-b9e52ca72fde")
+		(uuid "062c9512-1f84-422f-80d7-dc7e33ea7bc5")
 	)
 	(fp_line
 		(start -1.52 -1.25)
@@ -86,7 +86,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "84606ed5-68d4-4e85-ad17-b342beef4808")
+		(uuid "eb3b043d-18fe-4d63-9716-1b6ecd3d56a9")
 	)
 	(fp_line
 		(start -1.52 1.25)
@@ -96,7 +96,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "302b66ce-01ce-46e7-b53d-1113710ca4a0")
+		(uuid "bfdd0ced-4589-4b9e-bd48-0044a4f1e338")
 	)
 	(fp_line
 		(start 1.52 -1.25)
@@ -106,7 +106,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "da03df4e-d8b5-4b8e-a9ee-aa3bb6fba622")
+		(uuid "7b05b974-7193-4b15-9bfb-f21be94d3d98")
 	)
 	(fp_line
 		(start 1.52 1.25)
@@ -116,7 +116,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ab4b7df9-8795-4c08-9be5-b689dc7b7c31")
+		(uuid "40d05ed3-0a65-4220-b224-534124292f12")
 	)
 	(fp_line
 		(start -1.1 -1)
@@ -126,7 +126,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "07627ed0-8ff8-45b0-9721-956e262d81b6")
+		(uuid "3f0e0425-5f83-41d0-96a7-e753673fa5b1")
 	)
 	(fp_line
 		(start -1.1 0.45)
@@ -136,7 +136,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a426be0d-0229-4880-b63e-8b6445b6bdcf")
+		(uuid "7482f10b-a9d5-455b-8fc0-467da762eb79")
 	)
 	(fp_line
 		(start -0.55 1)
@@ -146,7 +146,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b17893a2-a245-4cc4-ac24-a1e9c6f5b0d1")
+		(uuid "1dcd9017-3ad7-4a60-8cf6-dc8f26531070")
 	)
 	(fp_line
 		(start 1.1 1)
@@ -156,7 +156,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "747466a6-837c-40c6-9885-161fba9521bc")
+		(uuid "62b3a4f9-f52f-48c8-b66c-901891536b48")
 	)
 	(fp_line
 		(start 1.1 1)
@@ -166,12 +166,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7d485773-1303-4df5-9935-6fbd702eaba6")
+		(uuid "59e202f4-2cea-4b19-94f6-34022e47c13a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 90)
 		(layer "F.Fab")
-		(uuid "03472d6b-08e9-488f-a345-8a39d9db7523")
+		(uuid "66c01d9b-9766-4028-88d8-b61e811827ad")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -183,25 +183,25 @@
 		(at -1.0825 0.55)
 		(size 0.365 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "878b6a4e-86ad-45bb-a1e7-98931e886121")
+		(uuid "62599d31-dbe4-4883-a075-cfea035ec262")
 	)
 	(pad "2" smd rect
 		(at -1.082499 -0.55)
 		(size 0.364998 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "cc22220f-413e-4a5e-8606-2110e8b8e24f")
+		(uuid "3ff156ea-faab-4b1b-883c-f1e3d7fbfcb8")
 	)
 	(pad "3" smd rect
 		(at 1.0825 -0.55)
 		(size 0.365 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "106d4b79-5e34-4039-a535-e6a263d4b2f5")
+		(uuid "8f227e0e-978e-413e-bc11-29e09e522e82")
 	)
 	(pad "4" smd rect
 		(at 1.0825 0.55)
 		(size 0.365 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "1da35721-0dfd-4122-ad74-d78a3e0ef359")
+		(uuid "fd5474ae-acde-4b87-92a3-054441aa058e")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.step"

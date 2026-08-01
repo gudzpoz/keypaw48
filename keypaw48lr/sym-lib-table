@@ -5,4 +5,5 @@
 	(lib (name "WS2812B_2020_V6") (type "KiCad") (uri "${KIPRJMOD}/libs/misc/WS2812B_2020_V6.kicad_sym") (options "") (descr ""))
 	(lib (name "Motion_sensor") (type "KiCad") (uri "${KIPRJMOD}/libs/paw3395/Motion_sensor.kicad_sym") (options "") (descr ""))
 	(lib (name "JD9613_OLED_FPC") (type "KiCad") (uri "${KIPRJMOD}/libs/misc/JD9613_OLED_FPC.kicad_sym") (options "") (descr ""))
+	(lib (name "DXCL_S2002A_C") (type "KiCad") (uri "${KIPRJMOD}/libs/misc/DXCL_S2002A_C.kicad_sym") (options "") (descr ""))
 )

@@ -7,4 +7,5 @@
 	(lib (name "MX_SW_HS_REV") (type "KiCad") (uri "${KIPRJMOD}/libs/misc/MX_SW_HS_REV.pretty") (options "") (descr ""))
 	(lib (name "ALPS_EC10E") (type "KiCad") (uri "${KIPRJMOD}/libs/misc/ALPS_EC10E.pretty") (options "") (descr ""))
 	(lib (name "JD9613_OLED_FPC") (type "KiCad") (uri "${KIPRJMOD}/libs/misc/JD9613_OLED_FPC.pretty") (options "") (descr ""))
+	(lib (name "DXCL_S2002A_C") (type "KiCad") (uri "${KIPRJMOD}/libs/misc/DXCL_S2002A_C.pretty") (options "") (descr ""))
 )
