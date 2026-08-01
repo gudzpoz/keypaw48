@@ -7635,7 +7635,7 @@
 	)
 	(global_label "ROW2"
 		(shape input)
-		(at 26.67 50.8 180)
+		(at 26.67 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7645,7 +7645,7 @@
 		)
 		(uuid "95ff0b32-b47f-4e09-8508-d7781165ab2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.4234 50.8 0)
+			(at 18.4234 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8115,7 +8115,7 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 26.67 53.34 180)
+		(at 26.67 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8125,7 +8125,7 @@
 		)
 		(uuid "d6e721ce-502c-46f7-b62c-d26937663338")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.4234 53.34 0)
+			(at 18.4234 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18184,7 +18184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
+		(property "Footprint" "MX_SW_HS_REV:Conn_1x02_P1.25mm_Horizontal_Battery_REV"
 			(at 23.495 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -23390,7 +23390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
+		(property "Footprint" "MX_SW_HS_REV:Conn_1x02_P1.25mm_Horizontal_Battery"
 			(at 66.04 93.98 0)
 			(hide yes)
 			(show_name no)
