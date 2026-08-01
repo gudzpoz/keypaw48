@@ -185,7 +185,7 @@
 			(pin power_in line
 				(at -5.08 2.54 0)
 				(length 3.81)
-				(name "RESET"
+				(name "~{RESET}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -239,7 +239,7 @@
 			(pin input line
 				(at -5.08 -5.08 0)
 				(length 3.81)
-				(name "EINT"
+				(name "~{EINT}"
 					(effects
 						(font
 							(size 1.27 1.27)
