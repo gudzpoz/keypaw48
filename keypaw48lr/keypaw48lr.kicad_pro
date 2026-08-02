@@ -546,9 +546,20 @@
         "clearance": 0.2,
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "SIGNAL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -587,6 +598,14 @@
       {
         "netclass": "POWER",
         "pattern": "+1V9"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "CS_OLED|CS_PAW|DS_OLED|MOTION|SCK|SDI|SDO"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "EINT|NRESET"
       }
     ]
   },
@@ -731,7 +750,7 @@
         "uuid": "052094ba-efae-41ac-bcac-3ea5f9c16259"
       }
     ],
-    "used_designators": "J1-9,SW1-5,MX1-24,JP1-8,LED1-30,R1-6,TP1-2,#PWR1-64,#PWR67-68,#PWR70-72,C1-15,D1-25,U1-5,H1-8",
+    "used_designators": "H1-8,U1-5,D1-25,C1-15,#PWR1-64,#PWR67-68,#PWR70-72,TP1-2,R1-6,LED1-30,JP1-8,MX1-24,SW1-5,J1-9",
     "variants": []
   },
   "sheets": [
