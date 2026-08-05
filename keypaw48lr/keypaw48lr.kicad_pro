@@ -270,7 +270,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v0.0.2"
+      "sch_revision": "${VERSION}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -759,7 +759,10 @@
       "keypaw48lr"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "MTIME": "2026-08-05",
+    "VERSION": "v0.0.3"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
